@@ -19049,3 +19049,1230 @@ Processing by UsersController#show as HTML
   Rendered users/show.html.erb within layouts/application (2.6ms)
 Completed 200 OK in 7ms (Views: 5.0ms | ActiveRecord: 0.2ms)
   [1m[35m (2.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Exists (0.2ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."email" = ? LIMIT ?[0m  [["email", "joey@lueilwitzmcdermott.net"], ["LIMIT", 1]]
+  [1m[36mUser Create (1.3ms)[0m  [1m[32mINSERT INTO "users" ("email", "encrypted_password", "name", "introduction", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["email", "joey@lueilwitzmcdermott.net"], ["encrypted_password", "$2a$04$VjCOE8iZRhxV4pLZEcO4ku7qMV86gUeTgqNbeJmHhm8F0pXFjTzoW"], ["name", "z20tvzsuef"], ["introduction", "idqm7jnbdqvt6nay9qn4"], ["created_at", "2020-04-21 04:51:06.811550"], ["updated_at", "2020-04-21 04:51:06.811550"]]
+  [1m[35m (0.0ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[35m (2.5ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Exists (0.4ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."email" = ? LIMIT ?[0m  [["email", "erin@bruen.com"], ["LIMIT", 1]]
+  [1m[36mUser Create (1.1ms)[0m  [1m[32mINSERT INTO "users" ("email", "encrypted_password", "name", "introduction", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["email", "erin@bruen.com"], ["encrypted_password", "$2a$04$xMj0YthakxAap.Ns.RDjnuF11fC8UThvcRQNimm5eQJbKv/Z9NHYu"], ["name", "lo57avw937"], ["introduction", "tdgkahhryig0uyjx8g5f"], ["created_at", "2020-04-21 04:51:06.866867"], ["updated_at", "2020-04-21 04:51:06.866867"]]
+  [1m[35m (0.0ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[35m (1.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Exists (0.3ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."email" = ? LIMIT ?[0m  [["email", "houston.willms@townehilll.org"], ["LIMIT", 1]]
+  [1m[36mUser Create (1.0ms)[0m  [1m[32mINSERT INTO "users" ("email", "encrypted_password", "name", "introduction", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["email", "houston.willms@townehilll.org"], ["encrypted_password", "$2a$04$ADSC8.H9AUwjUL.PX6w3DObuj/nPKfZ238Ko1ugCI8AQdeJNNnFga"], ["name", "0ibrnuxqec"], ["introduction", "7rqwhhrfhbza5fp4okkc"], ["created_at", "2020-04-21 04:51:06.874899"], ["updated_at", "2020-04-21 04:51:06.874899"]]
+  [1m[35m (0.0ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[35m (0.8ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mUser Exists (0.5ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."email" = ? LIMIT ?[0m  [["email", "irena_stracke@simonismarvin.name"], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mUser Exists (0.5ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."email" = ? LIMIT ?[0m  [["email", "lincoln_ankunding@lindfranecki.com"], ["LIMIT", 1]]
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mUser Exists (0.5ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."email" = ? LIMIT ?[0m  [["email", "jeffrey@beier.org"], ["LIMIT", 1]]
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mUser Exists (0.3ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."email" = ? LIMIT ?[0m  [["email", "johnny@langosh.net"], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Exists (0.9ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."email" = ? LIMIT ?[0m  [["email", "lilian.harvey@hoegerbechtelar.info"], ["LIMIT", 1]]
+  [1m[36mUser Create (1.7ms)[0m  [1m[32mINSERT INTO "users" ("email", "encrypted_password", "name", "introduction", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["email", "lilian.harvey@hoegerbechtelar.info"], ["encrypted_password", "$2a$04$DyLzI6Vd41Pr56yNDIKI9O0OIlUNKBMKKdkYBukHsXr96GD3LmlhO"], ["name", "rbve1qbnvo"], ["introduction", "hochkcf5a56psbzqfv7m"], ["created_at", "2020-04-21 04:51:06.906324"], ["updated_at", "2020-04-21 04:51:06.906324"]]
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Exists (0.2ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."email" = ? LIMIT ?[0m  [["email", "clifford@schiller.io"], ["LIMIT", 1]]
+  [1m[36mUser Create (0.4ms)[0m  [1m[32mINSERT INTO "users" ("email", "encrypted_password", "name", "introduction", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["email", "clifford@schiller.io"], ["encrypted_password", "$2a$04$h3eYkn9eIBsISK.Dq1a3ZOjSU2IEwSDF2kFZDQmBDG/GOuoR1ZJ9e"], ["name", "9jqiqnz5kg"], ["introduction", "n2z0t8tyuh82dpydj0vg"], ["created_at", "2020-04-21 04:51:06.915425"], ["updated_at", "2020-04-21 04:51:06.915425"]]
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mBook Create (0.6ms)[0m  [1m[32mINSERT INTO "books" ("title", "body", "user_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["title", "egihx"], ["body", "9wpxbdar8casa4uy7h7k"], ["user_id", 2], ["created_at", "2020-04-21 04:51:06.918169"], ["updated_at", "2020-04-21 04:51:06.918169"]]
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mBook Create (0.1ms)[0m  [1m[32mINSERT INTO "books" ("title", "body", "user_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["title", "oehoy"], ["body", "0rfzh0wsukylmu0px4lr"], ["user_id", 1], ["created_at", "2020-04-21 04:51:06.920914"], ["updated_at", "2020-04-21 04:51:06.920914"]]
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+Started GET "/users/sign_in" for 127.0.0.1 at 2020-04-21 04:51:06 +0000
+Processing by Devise::SessionsController#new as HTML
+Completed 500 Internal Server Error in 21ms (ActiveRecord: 0.0ms)
+  [1m[35m (2.8ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Exists (0.8ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."email" = ? LIMIT ?[0m  [["email", "sol_heidenreich@bashirian.name"], ["LIMIT", 1]]
+  [1m[36mUser Create (1.2ms)[0m  [1m[32mINSERT INTO "users" ("email", "encrypted_password", "name", "introduction", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["email", "sol_heidenreich@bashirian.name"], ["encrypted_password", "$2a$04$RKL7n8XHUzohahQ8WnSqpuYmtSijl1EK5nZk/grFlwFoVVdKx5TK2"], ["name", "vzpn4xo6wq"], ["introduction", "9b15w7w64nias0eiyndl"], ["created_at", "2020-04-21 04:51:06.966647"], ["updated_at", "2020-04-21 04:51:06.966647"]]
+  [1m[35m (0.0ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.0ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Exists (0.1ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."email" = ? LIMIT ?[0m  [["email", "jonell@kulas.info"], ["LIMIT", 1]]
+  [1m[36mUser Create (0.2ms)[0m  [1m[32mINSERT INTO "users" ("email", "encrypted_password", "name", "introduction", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["email", "jonell@kulas.info"], ["encrypted_password", "$2a$04$GkBWAIT1XceXwDoe5dhyJ.nwqA6k2Zrl15f5K2N7Csq3hrRuFYOta"], ["name", "oqsw09eypj"], ["introduction", "keykmf6gt92wlp7tg4ky"], ["created_at", "2020-04-21 04:51:06.970837"], ["updated_at", "2020-04-21 04:51:06.970837"]]
+  [1m[35m (0.0ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.0ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mBook Create (0.3ms)[0m  [1m[32mINSERT INTO "books" ("title", "body", "user_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["title", "oheaw"], ["body", "l0h5burp8jtkpxogaopt"], ["user_id", 2], ["created_at", "2020-04-21 04:51:06.972155"], ["updated_at", "2020-04-21 04:51:06.972155"]]
+  [1m[35m (0.0ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.0ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mBook Create (0.1ms)[0m  [1m[32mINSERT INTO "books" ("title", "body", "user_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["title", "2vvx7"], ["body", "w1n4y8o7fgtbbz9mc8xl"], ["user_id", 1], ["created_at", "2020-04-21 04:51:06.973765"], ["updated_at", "2020-04-21 04:51:06.973765"]]
+  [1m[35m (0.0ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+Started GET "/users/sign_in" for 127.0.0.1 at 2020-04-21 04:51:06 +0000
+Processing by Devise::SessionsController#new as HTML
+Completed 500 Internal Server Error in 14ms (ActiveRecord: 0.0ms)
+  [1m[35m (1.7ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Exists (0.3ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."email" = ? LIMIT ?[0m  [["email", "alan.gerlach@graham.net"], ["LIMIT", 1]]
+  [1m[36mUser Create (1.7ms)[0m  [1m[32mINSERT INTO "users" ("email", "encrypted_password", "name", "introduction", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["email", "alan.gerlach@graham.net"], ["encrypted_password", "$2a$04$Z/VyM2iQ/JKMoqcXQHuPGubMDhglcFRYpj2FVAqpoJj1gMsPORcNy"], ["name", "ongsavtsb0"], ["introduction", "qzro57iribbufssb4xvk"], ["created_at", "2020-04-21 04:51:06.996875"], ["updated_at", "2020-04-21 04:51:06.996875"]]
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Exists (0.1ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."email" = ? LIMIT ?[0m  [["email", "kevin@bechtelar.biz"], ["LIMIT", 1]]
+  [1m[36mUser Create (0.3ms)[0m  [1m[32mINSERT INTO "users" ("email", "encrypted_password", "name", "introduction", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["email", "kevin@bechtelar.biz"], ["encrypted_password", "$2a$04$AgiyEyXp9n0AcY84h60ijeTh13fUEr4vz4jotiuwB/q79oECivApG"], ["name", "hi72mjzbbt"], ["introduction", "0tclhtgjmzt90sm2o29h"], ["created_at", "2020-04-21 04:51:07.002382"], ["updated_at", "2020-04-21 04:51:07.002382"]]
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.0ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mBook Create (0.5ms)[0m  [1m[32mINSERT INTO "books" ("title", "body", "user_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["title", "arvyl"], ["body", "70feh9n48f97jy7qamfe"], ["user_id", 2], ["created_at", "2020-04-21 04:51:07.004530"], ["updated_at", "2020-04-21 04:51:07.004530"]]
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mBook Create (0.2ms)[0m  [1m[32mINSERT INTO "books" ("title", "body", "user_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["title", "fswf9"], ["body", "yk6mijzjt09lr94v36pr"], ["user_id", 1], ["created_at", "2020-04-21 04:51:07.007568"], ["updated_at", "2020-04-21 04:51:07.007568"]]
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+Started GET "/users/sign_in" for 127.0.0.1 at 2020-04-21 04:51:07 +0000
+Processing by Devise::SessionsController#new as HTML
+Completed 500 Internal Server Error in 16ms (ActiveRecord: 0.0ms)
+  [1m[35m (1.6ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Exists (0.4ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."email" = ? LIMIT ?[0m  [["email", "kris@prosacco.co"], ["LIMIT", 1]]
+  [1m[36mUser Create (1.8ms)[0m  [1m[32mINSERT INTO "users" ("email", "encrypted_password", "name", "introduction", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["email", "kris@prosacco.co"], ["encrypted_password", "$2a$04$RvszAFN1ktzSRXGepBY5aOG.NXA09ehPjRM/ML946xnumW7Ssxf1m"], ["name", "qcu531ceh5"], ["introduction", "j9dlt8od8kotfs0q4jly"], ["created_at", "2020-04-21 04:51:07.034103"], ["updated_at", "2020-04-21 04:51:07.034103"]]
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Exists (0.1ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."email" = ? LIMIT ?[0m  [["email", "barton_vandervort@schowalterruecker.biz"], ["LIMIT", 1]]
+  [1m[36mUser Create (0.2ms)[0m  [1m[32mINSERT INTO "users" ("email", "encrypted_password", "name", "introduction", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["email", "barton_vandervort@schowalterruecker.biz"], ["encrypted_password", "$2a$04$9irg.oUp/jK7W7IGasW52u9Nn4M.o39l0XIPpIe9HaQmvcB0qlRN."], ["name", "p9jfny2t0g"], ["introduction", "r6wiz5nuk2ug3vh3y029"], ["created_at", "2020-04-21 04:51:07.039638"], ["updated_at", "2020-04-21 04:51:07.039638"]]
+  [1m[35m (0.0ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.0ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mBook Create (0.2ms)[0m  [1m[32mINSERT INTO "books" ("title", "body", "user_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["title", "qjie3"], ["body", "d7n0tlxp4f9f0ghmkbxw"], ["user_id", 2], ["created_at", "2020-04-21 04:51:07.041166"], ["updated_at", "2020-04-21 04:51:07.041166"]]
+  [1m[35m (0.0ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.0ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mBook Create (0.1ms)[0m  [1m[32mINSERT INTO "books" ("title", "body", "user_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["title", "j3hnp"], ["body", "b6t0t3vjvd03dgg3gxbn"], ["user_id", 1], ["created_at", "2020-04-21 04:51:07.042399"], ["updated_at", "2020-04-21 04:51:07.042399"]]
+  [1m[35m (0.0ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+Started GET "/users/sign_in" for 127.0.0.1 at 2020-04-21 04:51:07 +0000
+Processing by Devise::SessionsController#new as HTML
+Completed 500 Internal Server Error in 14ms (ActiveRecord: 0.0ms)
+  [1m[35m (2.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Exists (0.4ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."email" = ? LIMIT ?[0m  [["email", "nilsa@mayert.io"], ["LIMIT", 1]]
+  [1m[36mUser Create (1.7ms)[0m  [1m[32mINSERT INTO "users" ("email", "encrypted_password", "name", "introduction", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["email", "nilsa@mayert.io"], ["encrypted_password", "$2a$04$ZAZuFylWcueqBuILleWDHuAVAArH15zwCv1BBZPS.LSs5o8wMq1JO"], ["name", "y27nn6c0vx"], ["introduction", "pt5f0pwpq8wy6975pi0w"], ["created_at", "2020-04-21 04:51:07.065341"], ["updated_at", "2020-04-21 04:51:07.065341"]]
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Exists (0.3ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."email" = ? LIMIT ?[0m  [["email", "clementina.hahn@hayes.info"], ["LIMIT", 1]]
+  [1m[36mUser Create (0.2ms)[0m  [1m[32mINSERT INTO "users" ("email", "encrypted_password", "name", "introduction", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["email", "clementina.hahn@hayes.info"], ["encrypted_password", "$2a$04$uBDnuhQn21wLRtLccEPbFuIV4BR93cjH1pNljpmjPXjzScWZ1ZysK"], ["name", "75i5vt1e1y"], ["introduction", "u6pm2u79q0s55ppo3smk"], ["created_at", "2020-04-21 04:51:07.071955"], ["updated_at", "2020-04-21 04:51:07.071955"]]
+  [1m[35m (0.0ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.0ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mBook Create (0.3ms)[0m  [1m[32mINSERT INTO "books" ("title", "body", "user_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["title", "p9an7"], ["body", "3l2ht5gy96o7xa4x09a9"], ["user_id", 2], ["created_at", "2020-04-21 04:51:07.073601"], ["updated_at", "2020-04-21 04:51:07.073601"]]
+  [1m[35m (0.0ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.0ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mBook Create (0.1ms)[0m  [1m[32mINSERT INTO "books" ("title", "body", "user_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["title", "kq537"], ["body", "kck1vqziy8813etbju91"], ["user_id", 1], ["created_at", "2020-04-21 04:51:07.075241"], ["updated_at", "2020-04-21 04:51:07.075241"]]
+  [1m[35m (0.0ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+Started GET "/users/sign_in" for 127.0.0.1 at 2020-04-21 04:51:07 +0000
+Processing by Devise::SessionsController#new as HTML
+Completed 500 Internal Server Error in 14ms (ActiveRecord: 0.0ms)
+  [1m[35m (1.8ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Exists (0.7ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."email" = ? LIMIT ?[0m  [["email", "danny.vonrueden@stehrbogisich.info"], ["LIMIT", 1]]
+  [1m[36mUser Create (1.3ms)[0m  [1m[32mINSERT INTO "users" ("email", "encrypted_password", "name", "introduction", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["email", "danny.vonrueden@stehrbogisich.info"], ["encrypted_password", "$2a$04$t9QHzJEOz.cpBtqa5RC0cetZvevev0rsLyKt0tQimV9wR/qMJoS42"], ["name", "hgsdn6q1ss"], ["introduction", "kh20hxxtwdz18ol6hp6y"], ["created_at", "2020-04-21 04:51:07.098008"], ["updated_at", "2020-04-21 04:51:07.098008"]]
+  [1m[35m (0.0ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Exists (0.2ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."email" = ? LIMIT ?[0m  [["email", "dominick.boyer@hermanpouros.org"], ["LIMIT", 1]]
+  [1m[36mUser Create (0.3ms)[0m  [1m[32mINSERT INTO "users" ("email", "encrypted_password", "name", "introduction", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["email", "dominick.boyer@hermanpouros.org"], ["encrypted_password", "$2a$04$TSSzsZAHnaKF.SrzcwYdU.Ncs85hN9hqv1Sb72WpzCDs1fObUFsBq"], ["name", "x27sxzdqfz"], ["introduction", "f9f4e6sntgompk36lzeg"], ["created_at", "2020-04-21 04:51:07.103487"], ["updated_at", "2020-04-21 04:51:07.103487"]]
+  [1m[35m (0.0ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.0ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mBook Create (0.2ms)[0m  [1m[32mINSERT INTO "books" ("title", "body", "user_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["title", "yt4yk"], ["body", "orfzjuptwdmhegnj7vgs"], ["user_id", 2], ["created_at", "2020-04-21 04:51:07.105563"], ["updated_at", "2020-04-21 04:51:07.105563"]]
+  [1m[35m (0.0ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.0ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mBook Create (0.1ms)[0m  [1m[32mINSERT INTO "books" ("title", "body", "user_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["title", "b3980"], ["body", "umsjac9ayqmn120x71es"], ["user_id", 1], ["created_at", "2020-04-21 04:51:07.106802"], ["updated_at", "2020-04-21 04:51:07.106802"]]
+  [1m[35m (0.0ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+Started GET "/users/sign_in" for 127.0.0.1 at 2020-04-21 04:51:07 +0000
+Processing by Devise::SessionsController#new as HTML
+Completed 500 Internal Server Error in 13ms (ActiveRecord: 0.0ms)
+  [1m[35m (2.4ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Exists (0.5ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."email" = ? LIMIT ?[0m  [["email", "rubin@walsh.info"], ["LIMIT", 1]]
+  [1m[36mUser Create (1.6ms)[0m  [1m[32mINSERT INTO "users" ("email", "encrypted_password", "name", "introduction", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["email", "rubin@walsh.info"], ["encrypted_password", "$2a$04$kq1i7tN/tamQt6fgvpvhoO/dFtGhEehUrmlS7QqLFr6oHO/C.fzWy"], ["name", "bfzq935gg1"], ["introduction", "w8fapmagacnlzdkbhk3z"], ["created_at", "2020-04-21 04:51:07.130742"], ["updated_at", "2020-04-21 04:51:07.130742"]]
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Exists (0.2ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."email" = ? LIMIT ?[0m  [["email", "buster.smith@konopelski.net"], ["LIMIT", 1]]
+  [1m[36mUser Create (0.3ms)[0m  [1m[32mINSERT INTO "users" ("email", "encrypted_password", "name", "introduction", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["email", "buster.smith@konopelski.net"], ["encrypted_password", "$2a$04$7l.cGZ2sYnxul5c7xO/k5.ZWSntVf7V9hMnxB5NkuQfRSuIqslkPG"], ["name", "dcbhnjchzl"], ["introduction", "v56zmmboq56c4yfvi8ri"], ["created_at", "2020-04-21 04:51:07.136265"], ["updated_at", "2020-04-21 04:51:07.136265"]]
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.0ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mBook Create (0.4ms)[0m  [1m[32mINSERT INTO "books" ("title", "body", "user_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["title", "cwn5h"], ["body", "r0c2n39rgrj08faf396u"], ["user_id", 2], ["created_at", "2020-04-21 04:51:07.138552"], ["updated_at", "2020-04-21 04:51:07.138552"]]
+  [1m[35m (0.0ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.0ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mBook Create (0.1ms)[0m  [1m[32mINSERT INTO "books" ("title", "body", "user_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["title", "sgbqi"], ["body", "yosjmp96g1tf9geneqmk"], ["user_id", 1], ["created_at", "2020-04-21 04:51:07.140331"], ["updated_at", "2020-04-21 04:51:07.140331"]]
+  [1m[35m (0.0ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+Started GET "/users/sign_in" for 127.0.0.1 at 2020-04-21 04:51:07 +0000
+Processing by Devise::SessionsController#new as HTML
+Completed 500 Internal Server Error in 14ms (ActiveRecord: 0.0ms)
+  [1m[35m (2.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Exists (0.7ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."email" = ? LIMIT ?[0m  [["email", "bobbie@kuphal.io"], ["LIMIT", 1]]
+  [1m[36mUser Create (1.8ms)[0m  [1m[32mINSERT INTO "users" ("email", "encrypted_password", "name", "introduction", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["email", "bobbie@kuphal.io"], ["encrypted_password", "$2a$04$0xRqk4irrxOtxe/b7KMOieaMBWYo4RF3CPRdjAusQnxgfDpN2Y3Y6"], ["name", "37dx6noidy"], ["introduction", "48ssfgb4acujl4u8pnst"], ["created_at", "2020-04-21 04:51:07.163754"], ["updated_at", "2020-04-21 04:51:07.163754"]]
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Exists (0.1ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."email" = ? LIMIT ?[0m  [["email", "cristen@shields.info"], ["LIMIT", 1]]
+  [1m[36mUser Create (0.3ms)[0m  [1m[32mINSERT INTO "users" ("email", "encrypted_password", "name", "introduction", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["email", "cristen@shields.info"], ["encrypted_password", "$2a$04$FKhOQP8iBWtjzoZJUNHrSeRrjLuEB0JsAPK2rBnlnlPkGCza6yXnq"], ["name", "kec56pycec"], ["introduction", "x74jit0aqv6ly7fz1muy"], ["created_at", "2020-04-21 04:51:07.169591"], ["updated_at", "2020-04-21 04:51:07.169591"]]
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.0ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mBook Create (0.5ms)[0m  [1m[32mINSERT INTO "books" ("title", "body", "user_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["title", "piwv5"], ["body", "37qqhoobbfzfgrz1ddnd"], ["user_id", 2], ["created_at", "2020-04-21 04:51:07.172011"], ["updated_at", "2020-04-21 04:51:07.172011"]]
+  [1m[35m (0.0ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.0ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mBook Create (0.1ms)[0m  [1m[32mINSERT INTO "books" ("title", "body", "user_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["title", "6mfhw"], ["body", "cxk1fvl708o6c62dyqu0"], ["user_id", 1], ["created_at", "2020-04-21 04:51:07.173984"], ["updated_at", "2020-04-21 04:51:07.173984"]]
+  [1m[35m (0.0ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+Started GET "/users/sign_in" for 127.0.0.1 at 2020-04-21 04:51:07 +0000
+Processing by Devise::SessionsController#new as HTML
+Completed 500 Internal Server Error in 14ms (ActiveRecord: 0.0ms)
+  [1m[35m (2.6ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Exists (0.7ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."email" = ? LIMIT ?[0m  [["email", "randal@botsford.io"], ["LIMIT", 1]]
+  [1m[36mUser Create (0.8ms)[0m  [1m[32mINSERT INTO "users" ("email", "encrypted_password", "name", "introduction", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["email", "randal@botsford.io"], ["encrypted_password", "$2a$04$.cgFTi96ZZ5V4Yw.86hE0eTm91chp/OHVaeZJt8lf5L/ho6c0jWVK"], ["name", "6nlpi0xhar"], ["introduction", "il52kbgemu4f6mvjv2am"], ["created_at", "2020-04-21 04:51:07.198485"], ["updated_at", "2020-04-21 04:51:07.198485"]]
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.0ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Exists (0.1ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."email" = ? LIMIT ?[0m  [["email", "blaine.spinka@rogahn.org"], ["LIMIT", 1]]
+  [1m[36mUser Create (0.2ms)[0m  [1m[32mINSERT INTO "users" ("email", "encrypted_password", "name", "introduction", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["email", "blaine.spinka@rogahn.org"], ["encrypted_password", "$2a$04$dpDyxgQJyuOXghBpz9kQyu8lMdIcuLiO90kNy5HU3m6np6RbjR.V6"], ["name", "rtmof96k3m"], ["introduction", "9ahpvjpt4b27dsu39wsx"], ["created_at", "2020-04-21 04:51:07.202238"], ["updated_at", "2020-04-21 04:51:07.202238"]]
+  [1m[35m (0.0ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.0ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mBook Create (0.5ms)[0m  [1m[32mINSERT INTO "books" ("title", "body", "user_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["title", "3qk8y"], ["body", "i2hv16uxec7lgpjnab67"], ["user_id", 2], ["created_at", "2020-04-21 04:51:07.203911"], ["updated_at", "2020-04-21 04:51:07.203911"]]
+  [1m[35m (0.0ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.0ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mBook Create (0.1ms)[0m  [1m[32mINSERT INTO "books" ("title", "body", "user_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["title", "vyfxl"], ["body", "jcrflqmk1jxr38ye4vwc"], ["user_id", 1], ["created_at", "2020-04-21 04:51:07.205835"], ["updated_at", "2020-04-21 04:51:07.205835"]]
+  [1m[35m (0.0ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+Started GET "/users/sign_in" for 127.0.0.1 at 2020-04-21 04:51:07 +0000
+Processing by Devise::SessionsController#new as HTML
+Completed 500 Internal Server Error in 14ms (ActiveRecord: 0.0ms)
+  [1m[35m (1.9ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Exists (0.5ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."email" = ? LIMIT ?[0m  [["email", "jewel@parisian.io"], ["LIMIT", 1]]
+  [1m[36mUser Create (1.1ms)[0m  [1m[32mINSERT INTO "users" ("email", "encrypted_password", "name", "introduction", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["email", "jewel@parisian.io"], ["encrypted_password", "$2a$04$m5.6Wkn.tebcQnDeZINxLuPqSF.BTkmQVJ7krCaQVqQhHpJTw6fdS"], ["name", "3hqwpj68l3"], ["introduction", "g36b87jd4nvbas9k06x4"], ["created_at", "2020-04-21 04:51:07.228499"], ["updated_at", "2020-04-21 04:51:07.228499"]]
+  [1m[35m (0.0ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.0ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Exists (0.1ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."email" = ? LIMIT ?[0m  [["email", "forrest.schuppe@reicherthansen.org"], ["LIMIT", 1]]
+  [1m[36mUser Create (0.2ms)[0m  [1m[32mINSERT INTO "users" ("email", "encrypted_password", "name", "introduction", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["email", "forrest.schuppe@reicherthansen.org"], ["encrypted_password", "$2a$04$F66ABRj1RN6cgjKlOT129u/lOfWURXFvuuNxwRkRFi/0TXwtsKFwa"], ["name", "vr3tuxwoio"], ["introduction", "18xydu05lrhnc2c0m64k"], ["created_at", "2020-04-21 04:51:07.232836"], ["updated_at", "2020-04-21 04:51:07.232836"]]
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mBook Create (0.3ms)[0m  [1m[32mINSERT INTO "books" ("title", "body", "user_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["title", "uny29"], ["body", "byl0omuz8zb3vqx5hkfy"], ["user_id", 2], ["created_at", "2020-04-21 04:51:07.235674"], ["updated_at", "2020-04-21 04:51:07.235674"]]
+  [1m[35m (0.0ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.0ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mBook Create (0.1ms)[0m  [1m[32mINSERT INTO "books" ("title", "body", "user_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["title", "oaabi"], ["body", "j7vmbily3djy2k7sqbiw"], ["user_id", 1], ["created_at", "2020-04-21 04:51:07.237189"], ["updated_at", "2020-04-21 04:51:07.237189"]]
+  [1m[35m (0.0ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+Started GET "/users/sign_in" for 127.0.0.1 at 2020-04-21 04:51:07 +0000
+Processing by Devise::SessionsController#new as HTML
+Completed 500 Internal Server Error in 15ms (ActiveRecord: 0.0ms)
+  [1m[35m (2.5ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Exists (0.3ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."email" = ? LIMIT ?[0m  [["email", "tyrell@dachfisher.biz"], ["LIMIT", 1]]
+  [1m[36mUser Create (0.9ms)[0m  [1m[32mINSERT INTO "users" ("email", "encrypted_password", "name", "introduction", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["email", "tyrell@dachfisher.biz"], ["encrypted_password", "$2a$04$.YmdHrtEWdH8Ph2rMbDdx.AwWbtWWqwcYauhgIO4PcObhX0KcnYue"], ["name", "99sprpng6j"], ["introduction", "wba2l6jbo7lhxx4jdh6r"], ["created_at", "2020-04-21 04:51:07.263453"], ["updated_at", "2020-04-21 04:51:07.263453"]]
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Exists (0.1ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."email" = ? LIMIT ?[0m  [["email", "truman_sipes@cruickshank.co"], ["LIMIT", 1]]
+  [1m[36mUser Create (0.3ms)[0m  [1m[32mINSERT INTO "users" ("email", "encrypted_password", "name", "introduction", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["email", "truman_sipes@cruickshank.co"], ["encrypted_password", "$2a$04$uQpTUlw/w.9xP5Vmi1XfC.nFwyR0iUPMCPoV7.rW64FUJ8VQ1m7/6"], ["name", "uyif5gmsdz"], ["introduction", "kdoxxjf0t6aubza8sqfp"], ["created_at", "2020-04-21 04:51:07.268053"], ["updated_at", "2020-04-21 04:51:07.268053"]]
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mBook Create (0.4ms)[0m  [1m[32mINSERT INTO "books" ("title", "body", "user_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["title", "ryu49"], ["body", "fyxy52f0zm7e9na6azy8"], ["user_id", 2], ["created_at", "2020-04-21 04:51:07.270917"], ["updated_at", "2020-04-21 04:51:07.270917"]]
+  [1m[35m (0.0ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.0ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mBook Create (0.1ms)[0m  [1m[32mINSERT INTO "books" ("title", "body", "user_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["title", "jmeg0"], ["body", "9nkka1xkh6y414j2bqvf"], ["user_id", 1], ["created_at", "2020-04-21 04:51:07.272689"], ["updated_at", "2020-04-21 04:51:07.272689"]]
+  [1m[35m (0.0ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+Started GET "/users/sign_in" for 127.0.0.1 at 2020-04-21 04:51:07 +0000
+Processing by Devise::SessionsController#new as HTML
+Completed 500 Internal Server Error in 25ms (ActiveRecord: 0.0ms)
+  [1m[35m (2.3ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Exists (0.5ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."email" = ? LIMIT ?[0m  [["email", "manda@wolff.com"], ["LIMIT", 1]]
+  [1m[36mUser Create (1.9ms)[0m  [1m[32mINSERT INTO "users" ("email", "encrypted_password", "name", "introduction", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["email", "manda@wolff.com"], ["encrypted_password", "$2a$04$HUxNGX1XitOvheW8rBck6uxukyKMWO02AyQs2JQRvcUbSRBax1kIy"], ["name", "fl8ulv2pfm"], ["introduction", "zc4bs2og1k6j2vo6skpy"], ["created_at", "2020-04-21 04:51:07.307629"], ["updated_at", "2020-04-21 04:51:07.307629"]]
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.0ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Exists (0.1ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."email" = ? LIMIT ?[0m  [["email", "herta@kiehn.name"], ["LIMIT", 1]]
+  [1m[36mUser Create (0.3ms)[0m  [1m[32mINSERT INTO "users" ("email", "encrypted_password", "name", "introduction", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["email", "herta@kiehn.name"], ["encrypted_password", "$2a$04$W.c4XheHx/ak6W2UdrRbVe0oQXdxNg3OCNPzcQB3aFnsFo.Vp3cd."], ["name", "0kj27kxr4b"], ["introduction", "ztnrmsef79n0j0huek03"], ["created_at", "2020-04-21 04:51:07.313541"], ["updated_at", "2020-04-21 04:51:07.313541"]]
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mBook Create (0.5ms)[0m  [1m[32mINSERT INTO "books" ("title", "body", "user_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["title", "9erpt"], ["body", "7p87fmfq7xnk3oznclx9"], ["user_id", 2], ["created_at", "2020-04-21 04:51:07.315750"], ["updated_at", "2020-04-21 04:51:07.315750"]]
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.0ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mBook Create (0.2ms)[0m  [1m[32mINSERT INTO "books" ("title", "body", "user_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["title", "79lya"], ["body", "hxpwv5y7c1i3yj7bt7pn"], ["user_id", 1], ["created_at", "2020-04-21 04:51:07.318141"], ["updated_at", "2020-04-21 04:51:07.318141"]]
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+Started GET "/users/sign_in" for 127.0.0.1 at 2020-04-21 04:51:07 +0000
+Processing by Devise::SessionsController#new as HTML
+Completed 500 Internal Server Error in 16ms (ActiveRecord: 0.0ms)
+  [1m[35m (2.8ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Exists (0.5ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."email" = ? LIMIT ?[0m  [["email", "floy.carroll@hartmann.com"], ["LIMIT", 1]]
+  [1m[36mUser Create (1.3ms)[0m  [1m[32mINSERT INTO "users" ("email", "encrypted_password", "name", "introduction", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["email", "floy.carroll@hartmann.com"], ["encrypted_password", "$2a$04$HTDefRGczXNSdBls49y8COd.FGmk9SQ1gm91qhDeXR5KNNG5j8pRy"], ["name", "a6rr5nvcix"], ["introduction", "ilidr763pmxv9u073h1g"], ["created_at", "2020-04-21 04:51:07.346614"], ["updated_at", "2020-04-21 04:51:07.346614"]]
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Exists (0.1ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."email" = ? LIMIT ?[0m  [["email", "vicente.quigley@blickpacocha.name"], ["LIMIT", 1]]
+  [1m[36mUser Create (0.6ms)[0m  [1m[32mINSERT INTO "users" ("email", "encrypted_password", "name", "introduction", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["email", "vicente.quigley@blickpacocha.name"], ["encrypted_password", "$2a$04$X4c4bBBe8l9fgt7sBmmPQuspk419fElpkQTh9rRDX9vJKMwI9o1mm"], ["name", "zdas6k1auk"], ["introduction", "pu96a4s23xfta51e4k5i"], ["created_at", "2020-04-21 04:51:07.351775"], ["updated_at", "2020-04-21 04:51:07.351775"]]
+  [1m[35m (0.2ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mBook Create (0.2ms)[0m  [1m[32mINSERT INTO "books" ("title", "body", "user_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["title", "3p5h0"], ["body", "gsajsco96d9w6ms467ex"], ["user_id", 2], ["created_at", "2020-04-21 04:51:07.354498"], ["updated_at", "2020-04-21 04:51:07.354498"]]
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mBook Create (0.1ms)[0m  [1m[32mINSERT INTO "books" ("title", "body", "user_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["title", "bo1hj"], ["body", "0wh0v6xcthwg92tqbi6g"], ["user_id", 1], ["created_at", "2020-04-21 04:51:07.356034"], ["updated_at", "2020-04-21 04:51:07.356034"]]
+  [1m[35m (0.0ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+Started GET "/users/sign_in" for 127.0.0.1 at 2020-04-21 04:51:07 +0000
+Processing by Devise::SessionsController#new as HTML
+Completed 500 Internal Server Error in 15ms (ActiveRecord: 0.0ms)
+  [1m[35m (1.7ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Exists (0.6ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."email" = ? LIMIT ?[0m  [["email", "lloyd@manteaufderhar.co"], ["LIMIT", 1]]
+  [1m[36mUser Create (1.7ms)[0m  [1m[32mINSERT INTO "users" ("email", "encrypted_password", "name", "introduction", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["email", "lloyd@manteaufderhar.co"], ["encrypted_password", "$2a$04$Pf0TojPnkwi6ysfYxbZsB./AGnKGKuSJnEePjvvMTrf.9j1sd6PuW"], ["name", "cywxbr4e90"], ["introduction", "yp0t7f5hqo9ntk08d8yl"], ["created_at", "2020-04-21 04:51:07.380677"], ["updated_at", "2020-04-21 04:51:07.380677"]]
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Exists (0.1ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."email" = ? LIMIT ?[0m  [["email", "johna_flatley@leschbalistreri.com"], ["LIMIT", 1]]
+  [1m[36mUser Create (0.3ms)[0m  [1m[32mINSERT INTO "users" ("email", "encrypted_password", "name", "introduction", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["email", "johna_flatley@leschbalistreri.com"], ["encrypted_password", "$2a$04$KWbXRYonuV23P.Zs7OUbGOGDaNCaSokQQhN6mLtuhf.wSUzizPSNm"], ["name", "aefn9zkimz"], ["introduction", "xj87zj828c7fbkr1iagj"], ["created_at", "2020-04-21 04:51:07.387177"], ["updated_at", "2020-04-21 04:51:07.387177"]]
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.0ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mBook Create (0.4ms)[0m  [1m[32mINSERT INTO "books" ("title", "body", "user_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["title", "nvy8r"], ["body", "1t5ur6a4248bz9qr7khp"], ["user_id", 2], ["created_at", "2020-04-21 04:51:07.389314"], ["updated_at", "2020-04-21 04:51:07.389314"]]
+  [1m[35m (0.0ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.0ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mBook Create (0.1ms)[0m  [1m[32mINSERT INTO "books" ("title", "body", "user_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["title", "ijohq"], ["body", "8btz6nh1awmashap2vkf"], ["user_id", 1], ["created_at", "2020-04-21 04:51:07.391230"], ["updated_at", "2020-04-21 04:51:07.391230"]]
+  [1m[35m (0.0ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+Started GET "/users/sign_in" for 127.0.0.1 at 2020-04-21 04:51:07 +0000
+Processing by Devise::SessionsController#new as HTML
+Completed 500 Internal Server Error in 15ms (ActiveRecord: 0.0ms)
+  [1m[35m (1.9ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Exists (0.5ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."email" = ? LIMIT ?[0m  [["email", "xavier_zboncak@wuckert.name"], ["LIMIT", 1]]
+  [1m[36mUser Create (1.4ms)[0m  [1m[32mINSERT INTO "users" ("email", "encrypted_password", "name", "introduction", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["email", "xavier_zboncak@wuckert.name"], ["encrypted_password", "$2a$04$43FaKx3r/7TGwLqpPMJE7.esE3gQcJfN4fQufq0fV4scF6NCHHr42"], ["name", "lwp5k8k9jw"], ["introduction", "ki3rxr3gz7nnp8jc4f5b"], ["created_at", "2020-04-21 04:51:07.415560"], ["updated_at", "2020-04-21 04:51:07.415560"]]
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Exists (0.1ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."email" = ? LIMIT ?[0m  [["email", "leonardo_carter@leschturcotte.biz"], ["LIMIT", 1]]
+  [1m[36mUser Create (0.3ms)[0m  [1m[32mINSERT INTO "users" ("email", "encrypted_password", "name", "introduction", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["email", "leonardo_carter@leschturcotte.biz"], ["encrypted_password", "$2a$04$Gkziqt0p9/GmzlAaWFlmFOYBaUt20AdOu88rzm1NGlLc5ehVWZNo6"], ["name", "nttiha2he1"], ["introduction", "0td3ghv9j564kmpl08bl"], ["created_at", "2020-04-21 04:51:07.421385"], ["updated_at", "2020-04-21 04:51:07.421385"]]
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.0ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mBook Create (0.4ms)[0m  [1m[32mINSERT INTO "books" ("title", "body", "user_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["title", "plr2s"], ["body", "crxj0kbe7t8wcbi1dfxw"], ["user_id", 2], ["created_at", "2020-04-21 04:51:07.423407"], ["updated_at", "2020-04-21 04:51:07.423407"]]
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.0ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mBook Create (0.1ms)[0m  [1m[32mINSERT INTO "books" ("title", "body", "user_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["title", "lzwfy"], ["body", "nnqxxmog1542paw94g3b"], ["user_id", 1], ["created_at", "2020-04-21 04:51:07.425357"], ["updated_at", "2020-04-21 04:51:07.425357"]]
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+Started GET "/users/sign_in" for 127.0.0.1 at 2020-04-21 04:51:07 +0000
+Processing by Devise::SessionsController#new as HTML
+Completed 500 Internal Server Error in 14ms (ActiveRecord: 0.0ms)
+  [1m[35m (2.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Exists (0.7ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."email" = ? LIMIT ?[0m  [["email", "deneen_schaden@kiehnbradtke.com"], ["LIMIT", 1]]
+  [1m[36mUser Create (1.0ms)[0m  [1m[32mINSERT INTO "users" ("email", "encrypted_password", "name", "introduction", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["email", "deneen_schaden@kiehnbradtke.com"], ["encrypted_password", "$2a$04$t3RfcG19NAFvUOC9FVOr5.nD7KNkkbWn7QFxY4iCadqWCZXjhWlgW"], ["name", "efky5qv7ii"], ["introduction", "7728lonlduefu466iaix"], ["created_at", "2020-04-21 04:51:07.448749"], ["updated_at", "2020-04-21 04:51:07.448749"]]
+  [1m[35m (0.0ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.0ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Exists (0.2ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."email" = ? LIMIT ?[0m  [["email", "albert.medhurst@weinat.net"], ["LIMIT", 1]]
+  [1m[36mUser Create (0.2ms)[0m  [1m[32mINSERT INTO "users" ("email", "encrypted_password", "name", "introduction", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["email", "albert.medhurst@weinat.net"], ["encrypted_password", "$2a$04$9wB6.ZvCNN9TwLTjRl986egnphZeeRKkXde7z8K9lKInVxRNjrivu"], ["name", "s6lj3zf75j"], ["introduction", "mz7o5fe3wgd48h177lfb"], ["created_at", "2020-04-21 04:51:07.452876"], ["updated_at", "2020-04-21 04:51:07.452876"]]
+  [1m[35m (0.0ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.0ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mBook Create (0.2ms)[0m  [1m[32mINSERT INTO "books" ("title", "body", "user_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["title", "3592w"], ["body", "tp2y6hnapc4ztcpdwxbq"], ["user_id", 2], ["created_at", "2020-04-21 04:51:07.454220"], ["updated_at", "2020-04-21 04:51:07.454220"]]
+  [1m[35m (0.0ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.0ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mBook Create (0.1ms)[0m  [1m[32mINSERT INTO "books" ("title", "body", "user_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["title", "n10s4"], ["body", "qv2r7ty8341nae7wxvle"], ["user_id", 1], ["created_at", "2020-04-21 04:51:07.455530"], ["updated_at", "2020-04-21 04:51:07.455530"]]
+  [1m[35m (0.0ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+Started GET "/users/sign_in" for 127.0.0.1 at 2020-04-21 04:51:07 +0000
+Processing by Devise::SessionsController#new as HTML
+Completed 500 Internal Server Error in 14ms (ActiveRecord: 0.0ms)
+  [1m[35m (1.6ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Exists (0.6ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."email" = ? LIMIT ?[0m  [["email", "nydia@miller.name"], ["LIMIT", 1]]
+  [1m[36mUser Create (1.1ms)[0m  [1m[32mINSERT INTO "users" ("email", "encrypted_password", "name", "introduction", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["email", "nydia@miller.name"], ["encrypted_password", "$2a$04$PkPzCY.Ztuvnkk5Pd2P6qOdBo2z7pMNS05tPYmi7CI0tGUdJ/WXuK"], ["name", "mthlw54ddb"], ["introduction", "isq9xhhlh7me92jfb7w8"], ["created_at", "2020-04-21 04:51:07.477910"], ["updated_at", "2020-04-21 04:51:07.477910"]]
+  [1m[35m (0.0ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.0ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Exists (0.1ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."email" = ? LIMIT ?[0m  [["email", "amado_jast@stoltenberg.com"], ["LIMIT", 1]]
+  [1m[36mUser Create (0.2ms)[0m  [1m[32mINSERT INTO "users" ("email", "encrypted_password", "name", "introduction", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["email", "amado_jast@stoltenberg.com"], ["encrypted_password", "$2a$04$mIp/Zkq4KO3f2pzryRXfD.ey6sfRMrtjYeMZrTLKK3.WrHZbfCeRa"], ["name", "gl1y3xtedq"], ["introduction", "mcillj10pr1aik5nszkw"], ["created_at", "2020-04-21 04:51:07.481794"], ["updated_at", "2020-04-21 04:51:07.481794"]]
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.0ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mBook Create (0.6ms)[0m  [1m[32mINSERT INTO "books" ("title", "body", "user_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["title", "8hzad"], ["body", "hw1m5hjxu4lwbb2numdw"], ["user_id", 2], ["created_at", "2020-04-21 04:51:07.483718"], ["updated_at", "2020-04-21 04:51:07.483718"]]
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.0ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mBook Create (0.1ms)[0m  [1m[32mINSERT INTO "books" ("title", "body", "user_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["title", "601ss"], ["body", "7kemzp786zm0ifctdrd4"], ["user_id", 1], ["created_at", "2020-04-21 04:51:07.486552"], ["updated_at", "2020-04-21 04:51:07.486552"]]
+  [1m[35m (0.0ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+Started GET "/users/sign_in" for 127.0.0.1 at 2020-04-21 04:51:07 +0000
+Processing by Devise::SessionsController#new as HTML
+Completed 500 Internal Server Error in 16ms (ActiveRecord: 0.0ms)
+  [1m[35m (2.5ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Exists (0.5ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."email" = ? LIMIT ?[0m  [["email", "anibal@haagdurgan.com"], ["LIMIT", 1]]
+  [1m[36mUser Create (1.3ms)[0m  [1m[32mINSERT INTO "users" ("email", "encrypted_password", "name", "introduction", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["email", "anibal@haagdurgan.com"], ["encrypted_password", "$2a$04$bIaXXEXbIJp3YAExDlChBuEoemDGHQ9fMczEZBFu1l1L2MMuyGWOK"], ["name", "qze3dow5ec"], ["introduction", "inzejaqy440ovl3p3x7s"], ["created_at", "2020-04-21 04:51:07.513192"], ["updated_at", "2020-04-21 04:51:07.513192"]]
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Exists (0.1ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."email" = ? LIMIT ?[0m  [["email", "prince.ryan@kiehnhudson.org"], ["LIMIT", 1]]
+  [1m[36mUser Create (0.3ms)[0m  [1m[32mINSERT INTO "users" ("email", "encrypted_password", "name", "introduction", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["email", "prince.ryan@kiehnhudson.org"], ["encrypted_password", "$2a$04$Wqz7Z3muctMBgkqPP6OF/OvX/4B1UfXl34EBcZQveF9gj1zWDV1BK"], ["name", "w0qkdo5ppv"], ["introduction", "51ulf8ez43zgcb63sgun"], ["created_at", "2020-04-21 04:51:07.518072"], ["updated_at", "2020-04-21 04:51:07.518072"]]
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mBook Create (0.3ms)[0m  [1m[32mINSERT INTO "books" ("title", "body", "user_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["title", "5xfp9"], ["body", "8wcvhoh0tdjaa1v70sul"], ["user_id", 2], ["created_at", "2020-04-21 04:51:07.520758"], ["updated_at", "2020-04-21 04:51:07.520758"]]
+  [1m[35m (0.0ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.0ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mBook Create (0.1ms)[0m  [1m[32mINSERT INTO "books" ("title", "body", "user_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["title", "bdbab"], ["body", "uu2t79vhpc11qqqu8pwy"], ["user_id", 1], ["created_at", "2020-04-21 04:51:07.522570"], ["updated_at", "2020-04-21 04:51:07.522570"]]
+  [1m[35m (0.0ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+Started GET "/users/sign_in" for 127.0.0.1 at 2020-04-21 04:51:07 +0000
+Processing by Devise::SessionsController#new as HTML
+Completed 500 Internal Server Error in 14ms (ActiveRecord: 0.0ms)
+  [1m[35m (2.2ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Exists (0.4ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."email" = ? LIMIT ?[0m  [["email", "jae@cronin.info"], ["LIMIT", 1]]
+  [1m[36mUser Create (0.9ms)[0m  [1m[32mINSERT INTO "users" ("email", "encrypted_password", "name", "introduction", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["email", "jae@cronin.info"], ["encrypted_password", "$2a$04$auSEdsN55PxCbKPk5L5QLO/WcpT7voM5jX3fnVb8b9EO6diMsEQGe"], ["name", "v3pe9fttc2"], ["introduction", "z0k6fmlrdjpwh4wbfxfj"], ["created_at", "2020-04-21 04:51:07.547253"], ["updated_at", "2020-04-21 04:51:07.547253"]]
+  [1m[35m (0.0ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Exists (0.1ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."email" = ? LIMIT ?[0m  [["email", "dave_hane@schultzhartmann.org"], ["LIMIT", 1]]
+  [1m[36mUser Create (0.3ms)[0m  [1m[32mINSERT INTO "users" ("email", "encrypted_password", "name", "introduction", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["email", "dave_hane@schultzhartmann.org"], ["encrypted_password", "$2a$04$jlDks06YSCzu8PEg0DIn..qwaW6RVNIBPpukCHs1KMoeaJ3UM3NV6"], ["name", "rh4sx9t35k"], ["introduction", "805gj6p3h18fx97kw491"], ["created_at", "2020-04-21 04:51:07.551539"], ["updated_at", "2020-04-21 04:51:07.551539"]]
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mBook Create (0.3ms)[0m  [1m[32mINSERT INTO "books" ("title", "body", "user_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["title", "cn3xj"], ["body", "9m9xmo11gz8dbnqxgif0"], ["user_id", 2], ["created_at", "2020-04-21 04:51:07.554409"], ["updated_at", "2020-04-21 04:51:07.554409"]]
+  [1m[35m (0.0ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.0ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mBook Create (0.1ms)[0m  [1m[32mINSERT INTO "books" ("title", "body", "user_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["title", "a8s7h"], ["body", "ny2hcwkzw7x2xuk3kn0n"], ["user_id", 1], ["created_at", "2020-04-21 04:51:07.556217"], ["updated_at", "2020-04-21 04:51:07.556217"]]
+  [1m[35m (0.0ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+Started GET "/users/sign_in" for 127.0.0.1 at 2020-04-21 04:51:07 +0000
+Processing by Devise::SessionsController#new as HTML
+Completed 500 Internal Server Error in 15ms (ActiveRecord: 0.0ms)
+  [1m[35m (1.8ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Exists (0.3ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."email" = ? LIMIT ?[0m  [["email", "darell.krajcik@konopelskihyatt.biz"], ["LIMIT", 1]]
+  [1m[36mUser Create (1.1ms)[0m  [1m[32mINSERT INTO "users" ("email", "encrypted_password", "name", "introduction", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["email", "darell.krajcik@konopelskihyatt.biz"], ["encrypted_password", "$2a$04$uAOXFiR0agtCxGiavwDES.GJekusReqh.lhtaIRryl05lug0fgYyi"], ["name", "vi8ght0hyx"], ["introduction", "v4z8cc5rx9q1wxnmg6kc"], ["created_at", "2020-04-21 04:51:07.581416"], ["updated_at", "2020-04-21 04:51:07.581416"]]
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Exists (0.1ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."email" = ? LIMIT ?[0m  [["email", "genny@dietrich.net"], ["LIMIT", 1]]
+  [1m[36mUser Create (0.3ms)[0m  [1m[32mINSERT INTO "users" ("email", "encrypted_password", "name", "introduction", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["email", "genny@dietrich.net"], ["encrypted_password", "$2a$04$x6sAbSRzQ/jcUkjRhLmSf.vuzga6lvoY9Lqi4ryccEaN5MvvEDaCq"], ["name", "hbjtodidlw"], ["introduction", "geg3zsvd8oscw2c398kk"], ["created_at", "2020-04-21 04:51:07.587049"], ["updated_at", "2020-04-21 04:51:07.587049"]]
+  [1m[35m (0.0ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.0ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mBook Create (0.2ms)[0m  [1m[32mINSERT INTO "books" ("title", "body", "user_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["title", "n4rm7"], ["body", "ykvtwopyq81erpxuytsf"], ["user_id", 2], ["created_at", "2020-04-21 04:51:07.588704"], ["updated_at", "2020-04-21 04:51:07.588704"]]
+  [1m[35m (0.0ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mBook Create (0.1ms)[0m  [1m[32mINSERT INTO "books" ("title", "body", "user_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["title", "o8tqs"], ["body", "dafsko35da98ohnyso09"], ["user_id", 1], ["created_at", "2020-04-21 04:51:07.589960"], ["updated_at", "2020-04-21 04:51:07.589960"]]
+  [1m[35m (0.0ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+Started GET "/users/sign_in" for 127.0.0.1 at 2020-04-21 04:51:07 +0000
+Processing by Devise::SessionsController#new as HTML
+Completed 500 Internal Server Error in 14ms (ActiveRecord: 0.0ms)
+  [1m[35m (2.6ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Exists (0.4ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."email" = ? LIMIT ?[0m  [["email", "arnetta_farrell@wunsch.com"], ["LIMIT", 1]]
+  [1m[36mUser Create (0.8ms)[0m  [1m[32mINSERT INTO "users" ("email", "encrypted_password", "name", "introduction", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["email", "arnetta_farrell@wunsch.com"], ["encrypted_password", "$2a$04$PBJsjNnVeiuy/AxdOm6oqOClMMOZDO0wcE1atYGnxiTeu3UxzqoMW"], ["name", "lc4xfspwcx"], ["introduction", "6nw4xslu6odacupvqbg9"], ["created_at", "2020-04-21 04:51:07.613684"], ["updated_at", "2020-04-21 04:51:07.613684"]]
+  [1m[35m (0.0ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.0ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Exists (0.1ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."email" = ? LIMIT ?[0m  [["email", "dorris@predovickris.net"], ["LIMIT", 1]]
+  [1m[36mUser Create (0.2ms)[0m  [1m[32mINSERT INTO "users" ("email", "encrypted_password", "name", "introduction", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["email", "dorris@predovickris.net"], ["encrypted_password", "$2a$04$E9uY9rze6vp8V77I8Ti.QuZrPg3pPLzLMhIvZHBni/.fWiKIRjp9u"], ["name", "h9b9oswh5o"], ["introduction", "jlj78q8lb64975ti683j"], ["created_at", "2020-04-21 04:51:07.617429"], ["updated_at", "2020-04-21 04:51:07.617429"]]
+  [1m[35m (0.0ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.0ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mBook Create (0.3ms)[0m  [1m[32mINSERT INTO "books" ("title", "body", "user_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["title", "uwuzc"], ["body", "zzm3zu6jjo32zuipgoq2"], ["user_id", 2], ["created_at", "2020-04-21 04:51:07.618825"], ["updated_at", "2020-04-21 04:51:07.618825"]]
+  [1m[35m (0.0ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.0ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mBook Create (0.1ms)[0m  [1m[32mINSERT INTO "books" ("title", "body", "user_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["title", "jz25b"], ["body", "jutxgmikr6mjo05svspg"], ["user_id", 1], ["created_at", "2020-04-21 04:51:07.620233"], ["updated_at", "2020-04-21 04:51:07.620233"]]
+  [1m[35m (0.0ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+Started GET "/users/sign_in" for 127.0.0.1 at 2020-04-21 04:51:07 +0000
+Processing by Devise::SessionsController#new as HTML
+Completed 500 Internal Server Error in 14ms (ActiveRecord: 0.0ms)
+  [1m[35m (3.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Exists (0.4ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."email" = ? LIMIT ?[0m  [["email", "antone.roberts@cartwright.com"], ["LIMIT", 1]]
+  [1m[36mUser Create (1.0ms)[0m  [1m[32mINSERT INTO "users" ("email", "encrypted_password", "name", "introduction", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["email", "antone.roberts@cartwright.com"], ["encrypted_password", "$2a$04$NsZnU6gpLyyuHi896k6lxuxiCdWgfmMnRSPtf1UQydj61dVaie3u2"], ["name", "oxuwv1kcyz"], ["introduction", "q75ka3c752967eed9w5z"], ["created_at", "2020-04-21 04:51:07.644195"], ["updated_at", "2020-04-21 04:51:07.644195"]]
+  [1m[35m (0.0ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.0ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Exists (0.1ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."email" = ? LIMIT ?[0m  [["email", "hsiu@cain.com"], ["LIMIT", 1]]
+  [1m[36mUser Create (0.2ms)[0m  [1m[32mINSERT INTO "users" ("email", "encrypted_password", "name", "introduction", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["email", "hsiu@cain.com"], ["encrypted_password", "$2a$04$FEz0ijeWpy4Vep71cqHTKObHq.NoplmDfJ0YWPBBOjaxO7QTvfBFq"], ["name", "cekm234huf"], ["introduction", "l1imk8c7wryy2d43jpsv"], ["created_at", "2020-04-21 04:51:07.648286"], ["updated_at", "2020-04-21 04:51:07.648286"]]
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.0ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mBook Create (0.4ms)[0m  [1m[32mINSERT INTO "books" ("title", "body", "user_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["title", "myn2m"], ["body", "vv09d2wofjg9on83i3dk"], ["user_id", 2], ["created_at", "2020-04-21 04:51:07.649906"], ["updated_at", "2020-04-21 04:51:07.649906"]]
+  [1m[35m (0.2ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mBook Create (0.1ms)[0m  [1m[32mINSERT INTO "books" ("title", "body", "user_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["title", "di7du"], ["body", "0iqz0maqpcg23pexwttg"], ["user_id", 1], ["created_at", "2020-04-21 04:51:07.652336"], ["updated_at", "2020-04-21 04:51:07.652336"]]
+  [1m[35m (0.0ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+Started GET "/users/sign_in" for 127.0.0.1 at 2020-04-21 04:51:07 +0000
+Processing by Devise::SessionsController#new as HTML
+Completed 500 Internal Server Error in 16ms (ActiveRecord: 0.0ms)
+  [1m[35m (2.7ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Exists (0.5ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."email" = ? LIMIT ?[0m  [["email", "beie.waters@wuckertquigley.biz"], ["LIMIT", 1]]
+  [1m[36mUser Create (1.5ms)[0m  [1m[32mINSERT INTO "users" ("email", "encrypted_password", "name", "introduction", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["email", "beie.waters@wuckertquigley.biz"], ["encrypted_password", "$2a$04$oaAertJo67sLJaPC/vaYcuNQ.rzF72mKjcWJVhSxoJwnhVahyVzX2"], ["name", "dwcy2wf37r"], ["introduction", "iei8q9pab4q204r3cmgh"], ["created_at", "2020-04-21 04:51:07.679101"], ["updated_at", "2020-04-21 04:51:07.679101"]]
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Exists (0.3ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."email" = ? LIMIT ?[0m  [["email", "yolonda_farrell@vonrueden.com"], ["LIMIT", 1]]
+  [1m[36mUser Create (0.5ms)[0m  [1m[32mINSERT INTO "users" ("email", "encrypted_password", "name", "introduction", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["email", "yolonda_farrell@vonrueden.com"], ["encrypted_password", "$2a$04$9k/HrPHXJH.p.MdAfA38NOPM6wxkNopZnD8hCyI1QUSJcUHm6R0cC"], ["name", "m0zjxr5x19"], ["introduction", "uqu02gzmh2jlkofnar6a"], ["created_at", "2020-04-21 04:51:07.684787"], ["updated_at", "2020-04-21 04:51:07.684787"]]
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mBook Create (0.4ms)[0m  [1m[32mINSERT INTO "books" ("title", "body", "user_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["title", "yp5ec"], ["body", "ybyg73k4rt0yc1my0hrt"], ["user_id", 2], ["created_at", "2020-04-21 04:51:07.687331"], ["updated_at", "2020-04-21 04:51:07.687331"]]
+  [1m[35m (0.0ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.0ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mBook Create (0.1ms)[0m  [1m[32mINSERT INTO "books" ("title", "body", "user_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["title", "mbz3t"], ["body", "8xa4ktksnxwz2ai3xxyp"], ["user_id", 1], ["created_at", "2020-04-21 04:51:07.689148"], ["updated_at", "2020-04-21 04:51:07.689148"]]
+  [1m[35m (0.0ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+Started GET "/users/sign_in" for 127.0.0.1 at 2020-04-21 04:51:07 +0000
+Processing by Devise::SessionsController#new as HTML
+Completed 500 Internal Server Error in 14ms (ActiveRecord: 0.0ms)
+  [1m[35m (2.3ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Exists (0.7ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."email" = ? LIMIT ?[0m  [["email", "jayna.ledner@breitenberg.org"], ["LIMIT", 1]]
+  [1m[36mUser Create (0.8ms)[0m  [1m[32mINSERT INTO "users" ("email", "encrypted_password", "name", "introduction", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["email", "jayna.ledner@breitenberg.org"], ["encrypted_password", "$2a$04$1iGr/1tqmkdGe3N4kkCCFu6SXtnz3ClGvTcQVfcGO.4oU5IKQHEcG"], ["name", "fl6ql0087u"], ["introduction", "3brr6er3m6vpjukyhl19"], ["created_at", "2020-04-21 04:51:07.713903"], ["updated_at", "2020-04-21 04:51:07.713903"]]
+  [1m[35m (0.0ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.0ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Exists (0.1ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."email" = ? LIMIT ?[0m  [["email", "orville_lebsack@okonjohnston.name"], ["LIMIT", 1]]
+  [1m[36mUser Create (0.2ms)[0m  [1m[32mINSERT INTO "users" ("email", "encrypted_password", "name", "introduction", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["email", "orville_lebsack@okonjohnston.name"], ["encrypted_password", "$2a$04$3.x2osQHcEd0fDTTEtJ8EO36nZs.mevs10DyMGNxekjHu7D.y/RGm"], ["name", "y7g67br5e4"], ["introduction", "x1n6ss98rn2khhsvkg9r"], ["created_at", "2020-04-21 04:51:07.717817"], ["updated_at", "2020-04-21 04:51:07.717817"]]
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.0ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mBook Create (0.2ms)[0m  [1m[32mINSERT INTO "books" ("title", "body", "user_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["title", "a8zv4"], ["body", "wpsissclrfq806psmp09"], ["user_id", 2], ["created_at", "2020-04-21 04:51:07.719203"], ["updated_at", "2020-04-21 04:51:07.719203"]]
+  [1m[35m (0.0ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.0ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mBook Create (0.1ms)[0m  [1m[32mINSERT INTO "books" ("title", "body", "user_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["title", "qls2u"], ["body", "w5zin383hahvb9zmijq6"], ["user_id", 1], ["created_at", "2020-04-21 04:51:07.720598"], ["updated_at", "2020-04-21 04:51:07.720598"]]
+  [1m[35m (0.0ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+Started GET "/users/sign_in" for 127.0.0.1 at 2020-04-21 04:51:07 +0000
+Processing by Devise::SessionsController#new as HTML
+Completed 500 Internal Server Error in 14ms (ActiveRecord: 0.0ms)
+  [1m[35m (1.8ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Exists (0.8ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."email" = ? LIMIT ?[0m  [["email", "toshiko@rowethompson.co"], ["LIMIT", 1]]
+  [1m[36mUser Create (0.7ms)[0m  [1m[32mINSERT INTO "users" ("email", "encrypted_password", "name", "introduction", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["email", "toshiko@rowethompson.co"], ["encrypted_password", "$2a$04$HmfZU2c4jNoOL6C1.ph1m.Bytus2Y/g8WGc7D47rxYe/7HX1L2di."], ["name", "o57r84ligz"], ["introduction", "qrpujmk85v9vpvsjqu3o"], ["created_at", "2020-04-21 04:51:07.743250"], ["updated_at", "2020-04-21 04:51:07.743250"]]
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.0ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Exists (0.1ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."email" = ? LIMIT ?[0m  [["email", "leonard@zemlakruel.io"], ["LIMIT", 1]]
+  [1m[36mUser Create (0.2ms)[0m  [1m[32mINSERT INTO "users" ("email", "encrypted_password", "name", "introduction", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["email", "leonard@zemlakruel.io"], ["encrypted_password", "$2a$04$CZd62Qno9t4jvU0Q1ZKgPeJ2eeBXGavFzaxttlcaG3Rxh9yVf0Js2"], ["name", "b0zl0kizh9"], ["introduction", "3snf2zs795riagqn5omg"], ["created_at", "2020-04-21 04:51:07.747045"], ["updated_at", "2020-04-21 04:51:07.747045"]]
+  [1m[35m (0.0ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.0ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mBook Create (0.2ms)[0m  [1m[32mINSERT INTO "books" ("title", "body", "user_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["title", "f3hbo"], ["body", "axxthxrqlzb9zl492qab"], ["user_id", 2], ["created_at", "2020-04-21 04:51:07.748685"], ["updated_at", "2020-04-21 04:51:07.748685"]]
+  [1m[35m (0.0ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mBook Create (0.2ms)[0m  [1m[32mINSERT INTO "books" ("title", "body", "user_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["title", "0wslg"], ["body", "pmldr0wqmhp5fhpn70gt"], ["user_id", 1], ["created_at", "2020-04-21 04:51:07.750453"], ["updated_at", "2020-04-21 04:51:07.750453"]]
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+Started GET "/users/sign_in" for 127.0.0.1 at 2020-04-21 04:51:07 +0000
+Processing by Devise::SessionsController#new as HTML
+Completed 500 Internal Server Error in 15ms (ActiveRecord: 0.0ms)
+  [1m[35m (2.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Exists (0.4ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."email" = ? LIMIT ?[0m  [["email", "darell@price.org"], ["LIMIT", 1]]
+  [1m[36mUser Create (1.3ms)[0m  [1m[32mINSERT INTO "users" ("email", "encrypted_password", "name", "introduction", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["email", "darell@price.org"], ["encrypted_password", "$2a$04$rzfZ2KSE0zJ/9bftxITFr.zqbpzacWWA7bPtoJpFRY3bzW5OP6BNS"], ["name", "83wfv16d1d"], ["introduction", "2jqjvumc152soe9bfq8e"], ["created_at", "2020-04-21 04:51:07.777858"], ["updated_at", "2020-04-21 04:51:07.777858"]]
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Exists (0.1ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."email" = ? LIMIT ?[0m  [["email", "latarsha.hegmann@nadermitchell.biz"], ["LIMIT", 1]]
+  [1m[36mUser Create (0.4ms)[0m  [1m[32mINSERT INTO "users" ("email", "encrypted_password", "name", "introduction", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["email", "latarsha.hegmann@nadermitchell.biz"], ["encrypted_password", "$2a$04$DxknStm4NEuB062O7p/li.kOwHfygtrlsYEQxHvJ6Fbx7ypx1mwN2"], ["name", "wzg8sise96"], ["introduction", "350788kpn3h12gd80773"], ["created_at", "2020-04-21 04:51:07.782956"], ["updated_at", "2020-04-21 04:51:07.782956"]]
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mBook Create (0.3ms)[0m  [1m[32mINSERT INTO "books" ("title", "body", "user_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["title", "7oisk"], ["body", "9hbuq9zu5yljv8mgb55y"], ["user_id", 2], ["created_at", "2020-04-21 04:51:07.785722"], ["updated_at", "2020-04-21 04:51:07.785722"]]
+  [1m[35m (0.0ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.0ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mBook Create (0.1ms)[0m  [1m[32mINSERT INTO "books" ("title", "body", "user_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["title", "bssx9"], ["body", "eoe0fzlkhgexkdse73uc"], ["user_id", 1], ["created_at", "2020-04-21 04:51:07.787594"], ["updated_at", "2020-04-21 04:51:07.787594"]]
+  [1m[35m (0.0ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+Started GET "/users/sign_in" for 127.0.0.1 at 2020-04-21 04:51:07 +0000
+Processing by Devise::SessionsController#new as HTML
+Completed 500 Internal Server Error in 15ms (ActiveRecord: 0.0ms)
+  [1m[35m (2.4ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Exists (0.4ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."email" = ? LIMIT ?[0m  [["email", "eladia@rowe.com"], ["LIMIT", 1]]
+  [1m[36mUser Create (1.2ms)[0m  [1m[32mINSERT INTO "users" ("email", "encrypted_password", "name", "introduction", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["email", "eladia@rowe.com"], ["encrypted_password", "$2a$04$Wzn9zw5c/AK9OXNY0JUjvuz28MDxGIJr/SZkLi1LQk8q8TcyRGu5q"], ["name", "6vxkcqviys"], ["introduction", "9l5sb8wi3toytf3g4os0"], ["created_at", "2020-04-21 04:51:07.813506"], ["updated_at", "2020-04-21 04:51:07.813506"]]
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Exists (0.1ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."email" = ? LIMIT ?[0m  [["email", "gerard_waters@schoen.com"], ["LIMIT", 1]]
+  [1m[36mUser Create (0.4ms)[0m  [1m[32mINSERT INTO "users" ("email", "encrypted_password", "name", "introduction", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["email", "gerard_waters@schoen.com"], ["encrypted_password", "$2a$04$uuAnr9005XdnOf1YiXiYPel5bCzGnzH21G.WKw8yrGIHxpSGEzyXO"], ["name", "7d5twvsv4z"], ["introduction", "bgpwep5tg5vt59ds38bb"], ["created_at", "2020-04-21 04:51:07.818858"], ["updated_at", "2020-04-21 04:51:07.818858"]]
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.0ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mBook Create (0.2ms)[0m  [1m[32mINSERT INTO "books" ("title", "body", "user_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["title", "dkqkp"], ["body", "q7we4gjdckkfhehogzra"], ["user_id", 2], ["created_at", "2020-04-21 04:51:07.820849"], ["updated_at", "2020-04-21 04:51:07.820849"]]
+  [1m[35m (0.0ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.0ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mBook Create (0.1ms)[0m  [1m[32mINSERT INTO "books" ("title", "body", "user_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["title", "f4bbr"], ["body", "zg0j6v9kx5mi00e645d7"], ["user_id", 1], ["created_at", "2020-04-21 04:51:07.822137"], ["updated_at", "2020-04-21 04:51:07.822137"]]
+  [1m[35m (0.0ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+Started GET "/users/sign_in" for 127.0.0.1 at 2020-04-21 04:51:07 +0000
+Processing by Devise::SessionsController#new as HTML
+Completed 500 Internal Server Error in 14ms (ActiveRecord: 0.0ms)
+  [1m[35m (2.4ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Exists (0.4ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."email" = ? LIMIT ?[0m  [["email", "burt@smith.co"], ["LIMIT", 1]]
+  [1m[36mUser Create (1.2ms)[0m  [1m[32mINSERT INTO "users" ("email", "encrypted_password", "name", "introduction", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["email", "burt@smith.co"], ["encrypted_password", "$2a$04$fQmrx84dTlUYAM1vtr5d6.2X7GT/32x5od1YXRfZcrUHnqRlFXbn."], ["name", "hmcjpi95a2"], ["introduction", "xh6epfr5fib5ya43ir3u"], ["created_at", "2020-04-21 04:51:07.847207"], ["updated_at", "2020-04-21 04:51:07.847207"]]
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.0ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mBook Create (0.5ms)[0m  [1m[32mINSERT INTO "books" ("title", "body", "user_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["title", "vp9rj"], ["body", "660mjenadibcavrt1z36"], ["user_id", 1], ["created_at", "2020-04-21 04:51:07.850085"], ["updated_at", "2020-04-21 04:51:07.850085"]]
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+Started GET "/users/sign_in" for 127.0.0.1 at 2020-04-21 04:51:07 +0000
+Processing by Devise::SessionsController#new as HTML
+Completed 500 Internal Server Error in 15ms (ActiveRecord: 0.0ms)
+  [1m[35m (2.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Exists (0.4ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."email" = ? LIMIT ?[0m  [["email", "francoise_lemke@langworth.info"], ["LIMIT", 1]]
+  [1m[36mUser Create (1.5ms)[0m  [1m[32mINSERT INTO "users" ("email", "encrypted_password", "name", "introduction", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["email", "francoise_lemke@langworth.info"], ["encrypted_password", "$2a$04$SIdsCsyXgSZsz/zqu1qnI.jpHt6hMRRMy62lEj2yO48iXw7L46TKi"], ["name", "6d0kjeroz6"], ["introduction", "ci83a1rqlxqhgqemz340"], ["created_at", "2020-04-21 04:51:07.876889"], ["updated_at", "2020-04-21 04:51:07.876889"]]
+  [1m[35m (0.0ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.0ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mBook Create (0.3ms)[0m  [1m[32mINSERT INTO "books" ("title", "body", "user_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["title", "4a5p4"], ["body", "tta2a0mwq0ox1440nrqb"], ["user_id", 1], ["created_at", "2020-04-21 04:51:07.879752"], ["updated_at", "2020-04-21 04:51:07.879752"]]
+  [1m[35m (0.0ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+Started GET "/users/sign_in" for 127.0.0.1 at 2020-04-21 04:51:07 +0000
+Processing by Devise::SessionsController#new as HTML
+Completed 500 Internal Server Error in 15ms (ActiveRecord: 0.0ms)
+  [1m[35m (1.4ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Exists (0.4ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."email" = ? LIMIT ?[0m  [["email", "gaye@quigleyhyatt.com"], ["LIMIT", 1]]
+  [1m[36mUser Create (0.7ms)[0m  [1m[32mINSERT INTO "users" ("email", "encrypted_password", "name", "introduction", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["email", "gaye@quigleyhyatt.com"], ["encrypted_password", "$2a$04$svHEle5zL6SuoupzXMV5EuvDpDwKlhSniDGn5LJmvSSFiSUlaB4Fq"], ["name", "irpwk62tat"], ["introduction", "jaabw5h3hluzvh6ypeud"], ["created_at", "2020-04-21 04:51:07.903625"], ["updated_at", "2020-04-21 04:51:07.903625"]]
+  [1m[35m (0.0ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mBook Create (0.9ms)[0m  [1m[32mINSERT INTO "books" ("title", "body", "user_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["title", "76mat"], ["body", "ko0ypmnw7ia5p80en3p9"], ["user_id", 1], ["created_at", "2020-04-21 04:51:07.906399"], ["updated_at", "2020-04-21 04:51:07.906399"]]
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+Started GET "/users/sign_in" for 127.0.0.1 at 2020-04-21 04:51:07 +0000
+Processing by Devise::SessionsController#new as HTML
+Completed 500 Internal Server Error in 17ms (ActiveRecord: 0.0ms)
+  [1m[35m (1.6ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Exists (0.6ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."email" = ? LIMIT ?[0m  [["email", "corey@nitzsche.io"], ["LIMIT", 1]]
+  [1m[36mUser Create (1.1ms)[0m  [1m[32mINSERT INTO "users" ("email", "encrypted_password", "name", "introduction", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["email", "corey@nitzsche.io"], ["encrypted_password", "$2a$04$C6d1eCyteBZbWKI8a0yrCe9dV4Z3VHmIBZAja7jOjASVjI8earHQO"], ["name", "bu4b3eylxj"], ["introduction", "aes4jdm5m2o027hg0dgb"], ["created_at", "2020-04-21 04:51:07.934177"], ["updated_at", "2020-04-21 04:51:07.934177"]]
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.0ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mBook Create (0.3ms)[0m  [1m[32mINSERT INTO "books" ("title", "body", "user_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["title", "o3a10"], ["body", "g1f5u1jiubs288y4dx1a"], ["user_id", 1], ["created_at", "2020-04-21 04:51:07.936692"], ["updated_at", "2020-04-21 04:51:07.936692"]]
+  [1m[35m (0.0ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+Started GET "/users/sign_in" for 127.0.0.1 at 2020-04-21 04:51:07 +0000
+Processing by Devise::SessionsController#new as HTML
+Completed 500 Internal Server Error in 15ms (ActiveRecord: 0.0ms)
+  [1m[35m (3.3ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/" for 127.0.0.1 at 2020-04-21 04:51:07 +0000
+Processing by BooksController#top as HTML
+  Rendering books/top.html.erb within layouts/application
+  Rendered books/top.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 4135ms (Views: 4131.9ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/" for 127.0.0.1 at 2020-04-21 04:51:12 +0000
+Processing by BooksController#top as HTML
+  Rendering books/top.html.erb within layouts/application
+  Rendered books/top.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 3ms (Views: 2.2ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/" for 127.0.0.1 at 2020-04-21 04:51:12 +0000
+Processing by BooksController#top as HTML
+  Rendering books/top.html.erb within layouts/application
+  Rendered books/top.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 2ms (Views: 1.7ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/" for 127.0.0.1 at 2020-04-21 04:51:12 +0000
+Processing by BooksController#top as HTML
+  Rendering books/top.html.erb within layouts/application
+  Rendered books/top.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 2ms (Views: 2.1ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.6ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/" for 127.0.0.1 at 2020-04-21 04:51:12 +0000
+Processing by BooksController#top as HTML
+  Rendering books/top.html.erb within layouts/application
+  Rendered books/top.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 2ms (Views: 2.0ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/" for 127.0.0.1 at 2020-04-21 04:51:12 +0000
+Processing by BooksController#top as HTML
+  Rendering books/top.html.erb within layouts/application
+  Rendered books/top.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 4ms (Views: 2.9ms | ActiveRecord: 0.0ms)
+Started GET "/" for 127.0.0.1 at 2020-04-21 04:51:12 +0000
+Processing by BooksController#top as HTML
+  Rendering books/top.html.erb within layouts/application
+  Rendered books/top.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 3ms (Views: 2.2ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/" for 127.0.0.1 at 2020-04-21 04:51:12 +0000
+Processing by BooksController#top as HTML
+  Rendering books/top.html.erb within layouts/application
+  Rendered books/top.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 4ms (Views: 2.9ms | ActiveRecord: 0.0ms)
+Started GET "/home/about" for 127.0.0.1 at 2020-04-21 04:51:12 +0000
+Processing by BooksController#about as HTML
+  Rendering books/about.html.erb within layouts/application
+  Rendered books/about.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 8ms (Views: 2.8ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/" for 127.0.0.1 at 2020-04-21 04:51:12 +0000
+Processing by BooksController#top as HTML
+  Rendering books/top.html.erb within layouts/application
+  Rendered books/top.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 3ms (Views: 2.4ms | ActiveRecord: 0.0ms)
+Started GET "/users/sign_up" for 127.0.0.1 at 2020-04-21 04:51:12 +0000
+Processing by Devise::RegistrationsController#new as HTML
+Completed 500 Internal Server Error in 19ms (ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/" for 127.0.0.1 at 2020-04-21 04:51:12 +0000
+Processing by BooksController#top as HTML
+  Rendering books/top.html.erb within layouts/application
+  Rendered books/top.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 3ms (Views: 2.2ms | ActiveRecord: 0.0ms)
+Started GET "/users/sign_in" for 127.0.0.1 at 2020-04-21 04:51:12 +0000
+Processing by Devise::SessionsController#new as HTML
+Completed 500 Internal Server Error in 17ms (ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/users/sign_in" for 127.0.0.1 at 2020-04-21 04:51:12 +0000
+Processing by Devise::SessionsController#new as HTML
+Completed 500 Internal Server Error in 16ms (ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/users/sign_in" for 127.0.0.1 at 2020-04-21 04:51:12 +0000
+Processing by Devise::SessionsController#new as HTML
+Completed 500 Internal Server Error in 15ms (ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/users/sign_in" for 127.0.0.1 at 2020-04-21 04:51:12 +0000
+Processing by Devise::SessionsController#new as HTML
+Completed 500 Internal Server Error in 16ms (ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/users/sign_in" for 127.0.0.1 at 2020-04-21 04:51:12 +0000
+Processing by Devise::SessionsController#new as HTML
+Completed 500 Internal Server Error in 16ms (ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/users/sign_in" for 127.0.0.1 at 2020-04-21 04:51:12 +0000
+Processing by Devise::SessionsController#new as HTML
+Completed 500 Internal Server Error in 16ms (ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/users/sign_in" for 127.0.0.1 at 2020-04-21 04:51:12 +0000
+Processing by Devise::SessionsController#new as HTML
+Completed 500 Internal Server Error in 15ms (ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/users/sign_in" for 127.0.0.1 at 2020-04-21 04:51:12 +0000
+Processing by Devise::SessionsController#new as HTML
+Completed 500 Internal Server Error in 16ms (ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/users/sign_in" for 127.0.0.1 at 2020-04-21 04:51:12 +0000
+Processing by Devise::SessionsController#new as HTML
+Completed 500 Internal Server Error in 16ms (ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/users/sign_in" for 127.0.0.1 at 2020-04-21 04:51:12 +0000
+Processing by Devise::SessionsController#new as HTML
+Completed 500 Internal Server Error in 16ms (ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Exists (0.6ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."email" = ? LIMIT ?[0m  [["email", "alec.graham@walterhermann.net"], ["LIMIT", 1]]
+  [1m[36mUser Create (1.5ms)[0m  [1m[32mINSERT INTO "users" ("email", "encrypted_password", "name", "introduction", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["email", "alec.graham@walterhermann.net"], ["encrypted_password", "$2a$04$WbHH5EXEyfHLCbXKQz/M3ews2j8xbZdTTOGu4RI57kjWSJ5Q3TuvW"], ["name", "ba9ax85d31"], ["introduction", "r7slqqcmnm2a3sahnho7"], ["created_at", "2020-04-21 04:51:12.432572"], ["updated_at", "2020-04-21 04:51:12.432572"]]
+  [1m[35m (0.0ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.0ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mBook Create (0.3ms)[0m  [1m[32mINSERT INTO "books" ("title", "body", "user_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["title", "opa62"], ["body", "44dfse9zlnoyn8rmmb26"], ["user_id", 1], ["created_at", "2020-04-21 04:51:12.435518"], ["updated_at", "2020-04-21 04:51:12.435518"]]
+  [1m[35m (0.0ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+Started GET "/books" for 127.0.0.1 at 2020-04-21 04:51:12 +0000
+Processing by BooksController#books as HTML
+Completed 401 Unauthorized in 0ms (ActiveRecord: 0.0ms)
+Started GET "/users/sign_in" for 127.0.0.1 at 2020-04-21 04:51:12 +0000
+Processing by Devise::SessionsController#new as HTML
+Completed 500 Internal Server Error in 17ms (ActiveRecord: 0.0ms)
+  [1m[35m (2.6ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Exists (0.4ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."email" = ? LIMIT ?[0m  [["email", "juliet_cronin@satterfield.com"], ["LIMIT", 1]]
+  [1m[36mUser Create (0.9ms)[0m  [1m[32mINSERT INTO "users" ("email", "encrypted_password", "name", "introduction", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["email", "juliet_cronin@satterfield.com"], ["encrypted_password", "$2a$04$Sgcin0gyxwqi9YBE8QI37ewBoNTYjhBmxLFXN0nApRJFV1Lh8sWmq"], ["name", "r3sop4qwab"], ["introduction", "42wl5tavqe9qfs5telh6"], ["created_at", "2020-04-21 04:51:12.469180"], ["updated_at", "2020-04-21 04:51:12.469180"]]
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.0ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mBook Create (0.3ms)[0m  [1m[32mINSERT INTO "books" ("title", "body", "user_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["title", "in7jj"], ["body", "segsic6rqdhmm5ayupk2"], ["user_id", 1], ["created_at", "2020-04-21 04:51:12.471561"], ["updated_at", "2020-04-21 04:51:12.471561"]]
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+Started GET "/books/1/edit" for 127.0.0.1 at 2020-04-21 04:51:12 +0000
+Processing by BooksController#edit as HTML
+  Parameters: {"id"=>"1"}
+Completed 401 Unauthorized in 1ms (ActiveRecord: 0.0ms)
+Started GET "/users/sign_in" for 127.0.0.1 at 2020-04-21 04:51:12 +0000
+Processing by Devise::SessionsController#new as HTML
+Completed 500 Internal Server Error in 16ms (ActiveRecord: 0.0ms)
+  [1m[35m (2.2ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Exists (0.6ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."email" = ? LIMIT ?[0m  [["email", "walker.senger@collier.org"], ["LIMIT", 1]]
+  [1m[36mUser Create (1.0ms)[0m  [1m[32mINSERT INTO "users" ("email", "encrypted_password", "name", "introduction", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["email", "walker.senger@collier.org"], ["encrypted_password", "$2a$04$L5zN2qAWmpRaGZD.AOXm3..27jp2iUUAMvAfTOSay.i5VeUyRlCIi"], ["name", "lancyvewnv"], ["introduction", "ef04423ys57uf3eozi54"], ["created_at", "2020-04-21 04:51:12.502788"], ["updated_at", "2020-04-21 04:51:12.502788"]]
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.0ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mBook Create (0.3ms)[0m  [1m[32mINSERT INTO "books" ("title", "body", "user_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["title", "9csux"], ["body", "osuor19tamv00o5grlcm"], ["user_id", 1], ["created_at", "2020-04-21 04:51:12.505290"], ["updated_at", "2020-04-21 04:51:12.505290"]]
+  [1m[35m (0.0ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+Started GET "/books/1" for 127.0.0.1 at 2020-04-21 04:51:12 +0000
+Processing by BooksController#show as HTML
+  Parameters: {"id"=>"1"}
+Completed 401 Unauthorized in 1ms (ActiveRecord: 0.0ms)
+Started GET "/users/sign_in" for 127.0.0.1 at 2020-04-21 04:51:12 +0000
+Processing by Devise::SessionsController#new as HTML
+Completed 500 Internal Server Error in 16ms (ActiveRecord: 0.0ms)
+  [1m[35m (2.4ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Exists (0.5ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."email" = ? LIMIT ?[0m  [["email", "maryam@paucek.org"], ["LIMIT", 1]]
+  [1m[36mUser Create (1.1ms)[0m  [1m[32mINSERT INTO "users" ("email", "encrypted_password", "name", "introduction", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["email", "maryam@paucek.org"], ["encrypted_password", "$2a$04$jcz0mLfTRuQ/xMRTbrUFX.sANgF2he8QlglgrUVRQosK6oN5DYKi."], ["name", "7ms8acr6gb"], ["introduction", "bsarpb0lssrrrrpuhg7q"], ["created_at", "2020-04-21 04:51:12.536345"], ["updated_at", "2020-04-21 04:51:12.536345"]]
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.0ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mBook Create (0.3ms)[0m  [1m[32mINSERT INTO "books" ("title", "body", "user_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["title", "v1m34"], ["body", "fsjsqkpqm6iofq576ga4"], ["user_id", 1], ["created_at", "2020-04-21 04:51:12.538857"], ["updated_at", "2020-04-21 04:51:12.538857"]]
+  [1m[35m (0.0ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+Started GET "/users" for 127.0.0.1 at 2020-04-21 04:51:12 +0000
+Processing by UsersController#users as HTML
+Completed 401 Unauthorized in 1ms (ActiveRecord: 0.0ms)
+Started GET "/users/sign_in" for 127.0.0.1 at 2020-04-21 04:51:12 +0000
+Processing by Devise::SessionsController#new as HTML
+Completed 500 Internal Server Error in 15ms (ActiveRecord: 0.0ms)
+  [1m[35m (2.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Exists (0.4ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."email" = ? LIMIT ?[0m  [["email", "walter_boehm@johnston.io"], ["LIMIT", 1]]
+  [1m[36mUser Create (1.0ms)[0m  [1m[32mINSERT INTO "users" ("email", "encrypted_password", "name", "introduction", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["email", "walter_boehm@johnston.io"], ["encrypted_password", "$2a$04$Rq0.RWklXR0urk82s64YkOrbSJ.JrnMt8BibmnCQxgQjNrFyda.QO"], ["name", "twp5cd57ld"], ["introduction", "r1skzyqe2z6ety9gtioo"], ["created_at", "2020-04-21 04:51:12.570940"], ["updated_at", "2020-04-21 04:51:12.570940"]]
+  [1m[35m (0.0ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mBook Create (0.4ms)[0m  [1m[32mINSERT INTO "books" ("title", "body", "user_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["title", "ewj5u"], ["body", "76ebqdik96o45s9l8149"], ["user_id", 1], ["created_at", "2020-04-21 04:51:12.573492"], ["updated_at", "2020-04-21 04:51:12.573492"]]
+  [1m[35m (0.0ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+Started GET "/users/1/edit" for 127.0.0.1 at 2020-04-21 04:51:12 +0000
+Processing by UsersController#edit as HTML
+  Parameters: {"id"=>"1"}
+Completed 401 Unauthorized in 1ms (ActiveRecord: 0.0ms)
+Started GET "/users/sign_in" for 127.0.0.1 at 2020-04-21 04:51:12 +0000
+Processing by Devise::SessionsController#new as HTML
+Completed 500 Internal Server Error in 15ms (ActiveRecord: 0.0ms)
+  [1m[35m (2.3ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Exists (0.4ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."email" = ? LIMIT ?[0m  [["email", "sun.littel@halvorson.info"], ["LIMIT", 1]]
+  [1m[36mUser Create (0.8ms)[0m  [1m[32mINSERT INTO "users" ("email", "encrypted_password", "name", "introduction", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["email", "sun.littel@halvorson.info"], ["encrypted_password", "$2a$04$J3b.DuIhHawQB2HyBe/p.ucBquTjXfVmepmZipBN4amd2vGFd3ku6"], ["name", "inqjrxxozq"], ["introduction", "l0t94f4l5czoolv8fuyz"], ["created_at", "2020-04-21 04:51:12.603451"], ["updated_at", "2020-04-21 04:51:12.603451"]]
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.0ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mBook Create (0.3ms)[0m  [1m[32mINSERT INTO "books" ("title", "body", "user_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["title", "cvxde"], ["body", "gvvp91aqp7duuc0m3kv8"], ["user_id", 1], ["created_at", "2020-04-21 04:51:12.605705"], ["updated_at", "2020-04-21 04:51:12.605705"]]
+  [1m[35m (0.0ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+Started GET "/users/1" for 127.0.0.1 at 2020-04-21 04:51:12 +0000
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"1"}
+Completed 401 Unauthorized in 0ms (ActiveRecord: 0.0ms)
+Started GET "/users/sign_in" for 127.0.0.1 at 2020-04-21 04:51:12 +0000
+Processing by Devise::SessionsController#new as HTML
+Completed 500 Internal Server Error in 15ms (ActiveRecord: 0.0ms)
+  [1m[35m (2.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/" for 127.0.0.1 at 2020-04-21 04:51:12 +0000
+Processing by BooksController#top as HTML
+  Rendering books/top.html.erb within layouts/application
+  Rendered books/top.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 2ms (Views: 1.7ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/" for 127.0.0.1 at 2020-04-21 04:51:12 +0000
+Processing by BooksController#top as HTML
+  Rendering books/top.html.erb within layouts/application
+  Rendered books/top.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 3ms (Views: 3.0ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/" for 127.0.0.1 at 2020-04-21 04:51:12 +0000
+Processing by BooksController#top as HTML
+  Rendering books/top.html.erb within layouts/application
+  Rendered books/top.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 2ms (Views: 2.0ms | ActiveRecord: 0.0ms)
+Started GET "/users/sign_in" for 127.0.0.1 at 2020-04-21 04:51:12 +0000
+Processing by Devise::SessionsController#new as HTML
+Completed 500 Internal Server Error in 17ms (ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/" for 127.0.0.1 at 2020-04-21 04:51:12 +0000
+Processing by BooksController#top as HTML
+  Rendering books/top.html.erb within layouts/application
+  Rendered books/top.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 3ms (Views: 2.2ms | ActiveRecord: 0.0ms)
+Started GET "/users/sign_in" for 127.0.0.1 at 2020-04-21 04:51:12 +0000
+Processing by Devise::SessionsController#new as HTML
+Completed 500 Internal Server Error in 16ms (ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/" for 127.0.0.1 at 2020-04-21 04:51:12 +0000
+Processing by BooksController#top as HTML
+  Rendering books/top.html.erb within layouts/application
+  Rendered books/top.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 3ms (Views: 2.5ms | ActiveRecord: 0.0ms)
+Started GET "/users/sign_in" for 127.0.0.1 at 2020-04-21 04:51:12 +0000
+Processing by Devise::SessionsController#new as HTML
+Completed 500 Internal Server Error in 17ms (ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/" for 127.0.0.1 at 2020-04-21 04:51:12 +0000
+Processing by BooksController#top as HTML
+  Rendering books/top.html.erb within layouts/application
+  Rendered books/top.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 2ms (Views: 2.0ms | ActiveRecord: 0.0ms)
+Started GET "/users/sign_up" for 127.0.0.1 at 2020-04-21 04:51:12 +0000
+Processing by Devise::RegistrationsController#new as HTML
+Completed 500 Internal Server Error in 16ms (ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/users/sign_up" for 127.0.0.1 at 2020-04-21 04:51:12 +0000
+Processing by Devise::RegistrationsController#new as HTML
+Completed 500 Internal Server Error in 16ms (ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/users/sign_up" for 127.0.0.1 at 2020-04-21 04:51:12 +0000
+Processing by Devise::RegistrationsController#new as HTML
+Completed 500 Internal Server Error in 15ms (ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/users/sign_in" for 127.0.0.1 at 2020-04-21 04:51:12 +0000
+Processing by Devise::SessionsController#new as HTML
+Completed 500 Internal Server Error in 16ms (ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/users/sign_in" for 127.0.0.1 at 2020-04-21 04:51:12 +0000
+Processing by Devise::SessionsController#new as HTML
+Completed 500 Internal Server Error in 16ms (ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Exists (1.2ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."email" = ? LIMIT ?[0m  [["email", "dwain.osinski@mosciski.com"], ["LIMIT", 1]]
+  [1m[36mUser Create (1.8ms)[0m  [1m[32mINSERT INTO "users" ("email", "encrypted_password", "name", "introduction", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["email", "dwain.osinski@mosciski.com"], ["encrypted_password", "$2a$04$DpRrUQO24ayXCBjGRo5ZVulFVGj.IajjF3kpILJr.JTJjSYQnSGYC"], ["name", "c1hx4k8e0n"], ["introduction", "yaquakrpk9qj7mpe35qd"], ["created_at", "2020-04-21 04:51:12.846012"], ["updated_at", "2020-04-21 04:51:12.846012"]]
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Exists (0.1ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."email" = ? LIMIT ?[0m  [["email", "tierra_schroeder@lubowitzmuller.info"], ["LIMIT", 1]]
+  [1m[36mUser Create (0.2ms)[0m  [1m[32mINSERT INTO "users" ("email", "encrypted_password", "name", "introduction", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["email", "tierra_schroeder@lubowitzmuller.info"], ["encrypted_password", "$2a$04$QJKrd.3vQZVSbGG8h8gyfOHV0UGcyxocwTUHNZiCwjMOxGWCYIt6m"], ["name", "omk7njuafl"], ["introduction", "azb30wub685hvcmrialc"], ["created_at", "2020-04-21 04:51:12.851567"], ["updated_at", "2020-04-21 04:51:12.851567"]]
+  [1m[35m (0.0ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.0ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mBook Create (0.4ms)[0m  [1m[32mINSERT INTO "books" ("title", "body", "user_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["title", "dvq0f"], ["body", "8upg4z1j6udcyoqcbz1g"], ["user_id", 2], ["created_at", "2020-04-21 04:51:12.853182"], ["updated_at", "2020-04-21 04:51:12.853182"]]
+  [1m[35m (0.0ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+Started GET "/users/sign_in" for 127.0.0.1 at 2020-04-21 04:51:12 +0000
+Processing by Devise::SessionsController#new as HTML
+Completed 500 Internal Server Error in 15ms (ActiveRecord: 0.0ms)
+  [1m[35m (2.2ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Exists (0.7ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."email" = ? LIMIT ?[0m  [["email", "francoise_carroll@kleinkilback.co"], ["LIMIT", 1]]
+  [1m[36mUser Create (1.6ms)[0m  [1m[32mINSERT INTO "users" ("email", "encrypted_password", "name", "introduction", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["email", "francoise_carroll@kleinkilback.co"], ["encrypted_password", "$2a$04$97C8efQskHE.L4XUoUmKIuK4LGNsBXjsTG85Y2CsADR44lSWXWlpG"], ["name", "kyuk4q0cp8"], ["introduction", "71cbfiwlklmp40kcbdpe"], ["created_at", "2020-04-21 04:51:12.879706"], ["updated_at", "2020-04-21 04:51:12.879706"]]
+  [1m[35m (0.0ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Exists (0.1ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."email" = ? LIMIT ?[0m  [["email", "maryellen_dickens@thiel.info"], ["LIMIT", 1]]
+  [1m[36mUser Create (0.2ms)[0m  [1m[32mINSERT INTO "users" ("email", "encrypted_password", "name", "introduction", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["email", "maryellen_dickens@thiel.info"], ["encrypted_password", "$2a$04$9geQglmzV2V0FJuXWTNHJ.BzWIJmzmKvOFlQBaASuMzCdGb9iAw7i"], ["name", "w5sgoyksxx"], ["introduction", "jadxb37rqol9bi4xrh6n"], ["created_at", "2020-04-21 04:51:12.884845"], ["updated_at", "2020-04-21 04:51:12.884845"]]
+  [1m[35m (0.0ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.0ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mBook Create (0.4ms)[0m  [1m[32mINSERT INTO "books" ("title", "body", "user_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["title", "4yfqo"], ["body", "s0aocxu6w2aea7hpozzr"], ["user_id", 2], ["created_at", "2020-04-21 04:51:12.886576"], ["updated_at", "2020-04-21 04:51:12.886576"]]
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+Started GET "/users/sign_in" for 127.0.0.1 at 2020-04-21 04:51:12 +0000
+Processing by Devise::SessionsController#new as HTML
+Completed 500 Internal Server Error in 15ms (ActiveRecord: 0.0ms)
+  [1m[35m (2.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Exists (0.2ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."email" = ? LIMIT ?[0m  [["email", "svetlana@moen.name"], ["LIMIT", 1]]
+  [1m[36mUser Create (1.4ms)[0m  [1m[32mINSERT INTO "users" ("email", "encrypted_password", "name", "introduction", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["email", "svetlana@moen.name"], ["encrypted_password", "$2a$04$sYb22sX9vxSDbGyYzu7WNep/s5geIQQEhWG0upZV7vohXR4SFDxQS"], ["name", "oori7si9yy"], ["introduction", "z4hh8krrcyeqqdp7awm2"], ["created_at", "2020-04-21 04:51:12.911313"], ["updated_at", "2020-04-21 04:51:12.911313"]]
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.0ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Exists (0.1ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."email" = ? LIMIT ?[0m  [["email", "quinton_kuhlman@cremin.org"], ["LIMIT", 1]]
+  [1m[36mUser Create (0.3ms)[0m  [1m[32mINSERT INTO "users" ("email", "encrypted_password", "name", "introduction", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["email", "quinton_kuhlman@cremin.org"], ["encrypted_password", "$2a$04$96nNkCqrhCCJxnq8qx6UeOh5fZva8SW.DxdjxGuTlQ59eProzpKKi"], ["name", "ljcure5njz"], ["introduction", "yavz6rdaor59loqhjce9"], ["created_at", "2020-04-21 04:51:12.916512"], ["updated_at", "2020-04-21 04:51:12.916512"]]
+  [1m[35m (0.0ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.0ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mBook Create (0.2ms)[0m  [1m[32mINSERT INTO "books" ("title", "body", "user_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["title", "mo8bo"], ["body", "oi2say8n8u4ixkxt1e9n"], ["user_id", 2], ["created_at", "2020-04-21 04:51:12.918021"], ["updated_at", "2020-04-21 04:51:12.918021"]]
+  [1m[35m (0.0ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+Started GET "/users/sign_in" for 127.0.0.1 at 2020-04-21 04:51:12 +0000
+Processing by Devise::SessionsController#new as HTML
+Completed 500 Internal Server Error in 15ms (ActiveRecord: 0.0ms)
+  [1m[35m (1.6ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Exists (0.5ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."email" = ? LIMIT ?[0m  [["email", "ngoc@osinski.io"], ["LIMIT", 1]]
+  [1m[36mUser Create (1.2ms)[0m  [1m[32mINSERT INTO "users" ("email", "encrypted_password", "name", "introduction", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["email", "ngoc@osinski.io"], ["encrypted_password", "$2a$04$HjfVgp9Z4H5gEqCzFB5vZ.qoJoGGsy2XgCkOnY2tRMfPMEmx0HCCW"], ["name", "dbf9m7ryf3"], ["introduction", "2ofz18waf8hzz0rg01hg"], ["created_at", "2020-04-21 04:51:12.942045"], ["updated_at", "2020-04-21 04:51:12.942045"]]
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Exists (0.1ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."email" = ? LIMIT ?[0m  [["email", "carlee@sipesemmerich.co"], ["LIMIT", 1]]
+  [1m[36mUser Create (0.2ms)[0m  [1m[32mINSERT INTO "users" ("email", "encrypted_password", "name", "introduction", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["email", "carlee@sipesemmerich.co"], ["encrypted_password", "$2a$04$rY/2oB/0qlYq2aP61bsEhObO/Z0I0OL77uHNx5B0us4lzrT4gAkr."], ["name", "aevw2g1rbk"], ["introduction", "a7b3imybughg044ogmc8"], ["created_at", "2020-04-21 04:51:12.947759"], ["updated_at", "2020-04-21 04:51:12.947759"]]
+  [1m[35m (0.0ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.0ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mBook Create (0.2ms)[0m  [1m[32mINSERT INTO "books" ("title", "body", "user_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["title", "qc656"], ["body", "cdnmuf6uew71t5ci4uk3"], ["user_id", 2], ["created_at", "2020-04-21 04:51:12.949355"], ["updated_at", "2020-04-21 04:51:12.949355"]]
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+Started GET "/users/sign_in" for 127.0.0.1 at 2020-04-21 04:51:12 +0000
+Processing by Devise::SessionsController#new as HTML
+Completed 500 Internal Server Error in 15ms (ActiveRecord: 0.0ms)
+  [1m[35m (1.8ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Exists (0.5ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."email" = ? LIMIT ?[0m  [["email", "queen.bergstrom@swaniawski.name"], ["LIMIT", 1]]
+  [1m[36mUser Create (1.4ms)[0m  [1m[32mINSERT INTO "users" ("email", "encrypted_password", "name", "introduction", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["email", "queen.bergstrom@swaniawski.name"], ["encrypted_password", "$2a$04$cb.x1evtv2KpFOxhXYf.bO01t/CRCWJl2tIfswAuHEJPcF.kDZ/Fi"], ["name", "gxju6ubl7b"], ["introduction", "1n5ywupdym26cyj0n405"], ["created_at", "2020-04-21 04:51:12.974934"], ["updated_at", "2020-04-21 04:51:12.974934"]]
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Exists (0.1ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."email" = ? LIMIT ?[0m  [["email", "denny.nikolaus@spencer.info"], ["LIMIT", 1]]
+  [1m[36mUser Create (0.3ms)[0m  [1m[32mINSERT INTO "users" ("email", "encrypted_password", "name", "introduction", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["email", "denny.nikolaus@spencer.info"], ["encrypted_password", "$2a$04$/a0Xrem7PK9IUrdDFwWEEuRdtMn0rXrwaAVqSDikkWzKWabpjB21S"], ["name", "8kh65jyl5f"], ["introduction", "upgx3o3d0phpm8hfkb9l"], ["created_at", "2020-04-21 04:51:12.980551"], ["updated_at", "2020-04-21 04:51:12.980551"]]
+  [1m[35m (0.0ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.0ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mBook Create (0.4ms)[0m  [1m[32mINSERT INTO "books" ("title", "body", "user_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["title", "wm6ux"], ["body", "whye8zh2f0wvm05v0os5"], ["user_id", 2], ["created_at", "2020-04-21 04:51:12.982355"], ["updated_at", "2020-04-21 04:51:12.982355"]]
+  [1m[35m (0.0ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+Started GET "/users/sign_in" for 127.0.0.1 at 2020-04-21 04:51:12 +0000
+Processing by Devise::SessionsController#new as HTML
+Completed 500 Internal Server Error in 14ms (ActiveRecord: 0.0ms)
+  [1m[35m (1.7ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Exists (0.8ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."email" = ? LIMIT ?[0m  [["email", "doria@bradtke.net"], ["LIMIT", 1]]
+  [1m[36mUser Create (1.0ms)[0m  [1m[32mINSERT INTO "users" ("email", "encrypted_password", "name", "introduction", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["email", "doria@bradtke.net"], ["encrypted_password", "$2a$04$rZVuBF5ghoqJqOILpbr.GeI8DmBXHbi7s6mmkhwBdcOgzRzuqz1tq"], ["name", "pkn57vhe5x"], ["introduction", "i9ka2fj10dj8tyc6fk9z"], ["created_at", "2020-04-21 04:51:13.006176"], ["updated_at", "2020-04-21 04:51:13.006176"]]
+  [1m[35m (0.0ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Exists (0.1ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."email" = ? LIMIT ?[0m  [["email", "eugenia.rutherford@mckenzie.net"], ["LIMIT", 1]]
+  [1m[36mUser Create (0.3ms)[0m  [1m[32mINSERT INTO "users" ("email", "encrypted_password", "name", "introduction", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["email", "eugenia.rutherford@mckenzie.net"], ["encrypted_password", "$2a$04$gUE40pit2Om9/sM2FxCXhONzzeDTW9lm8N/BIO/MHI73rdpDlvtXq"], ["name", "a2f2hsqww1"], ["introduction", "020wbdfo54m6a398h7ud"], ["created_at", "2020-04-21 04:51:13.011540"], ["updated_at", "2020-04-21 04:51:13.011540"]]
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.0ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mBook Create (0.3ms)[0m  [1m[32mINSERT INTO "books" ("title", "body", "user_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["title", "itsfo"], ["body", "gk3bdwvwpmqqb41dq39g"], ["user_id", 2], ["created_at", "2020-04-21 04:51:13.013329"], ["updated_at", "2020-04-21 04:51:13.013329"]]
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+Started GET "/users/sign_in" for 127.0.0.1 at 2020-04-21 04:51:13 +0000
+Processing by Devise::SessionsController#new as HTML
+Completed 500 Internal Server Error in 14ms (ActiveRecord: 0.0ms)
+  [1m[35m (1.9ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Exists (0.4ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."email" = ? LIMIT ?[0m  [["email", "debera@graham.biz"], ["LIMIT", 1]]
+  [1m[36mUser Create (0.7ms)[0m  [1m[32mINSERT INTO "users" ("email", "encrypted_password", "name", "introduction", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["email", "debera@graham.biz"], ["encrypted_password", "$2a$04$XhYK7g7ZQ5GPSaeCCkIHeOd2zzVX4kYNAuS38feEYsAwnJf6J1ejq"], ["name", "c7qi3ypr2l"], ["introduction", "w3ra60e3rb5q17pkt666"], ["created_at", "2020-04-21 04:51:13.037353"], ["updated_at", "2020-04-21 04:51:13.037353"]]
+  [1m[35m (0.0ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.0ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Exists (0.1ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."email" = ? LIMIT ?[0m  [["email", "erik@johnston.biz"], ["LIMIT", 1]]
+  [1m[36mUser Create (0.2ms)[0m  [1m[32mINSERT INTO "users" ("email", "encrypted_password", "name", "introduction", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["email", "erik@johnston.biz"], ["encrypted_password", "$2a$04$5d.PjM1cjhm3FEydGR1e8eTgO5ayveZFGe9zyF.NWRsRIw8jD6V/m"], ["name", "on224lj4t1"], ["introduction", "ar5k2ny3d4dnmvr18mfi"], ["created_at", "2020-04-21 04:51:13.041341"], ["updated_at", "2020-04-21 04:51:13.041341"]]
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mBook Create (0.5ms)[0m  [1m[32mINSERT INTO "books" ("title", "body", "user_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["title", "ntaw2"], ["body", "p8e4qwlzzhw6k6v5bcym"], ["user_id", 2], ["created_at", "2020-04-21 04:51:13.043898"], ["updated_at", "2020-04-21 04:51:13.043898"]]
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+Started GET "/users/sign_in" for 127.0.0.1 at 2020-04-21 04:51:13 +0000
+Processing by Devise::SessionsController#new as HTML
+Completed 500 Internal Server Error in 14ms (ActiveRecord: 0.0ms)
+  [1m[35m (2.2ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Exists (0.3ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."email" = ? LIMIT ?[0m  [["email", "makeda@hane.com"], ["LIMIT", 1]]
+  [1m[36mUser Create (0.9ms)[0m  [1m[32mINSERT INTO "users" ("email", "encrypted_password", "name", "introduction", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["email", "makeda@hane.com"], ["encrypted_password", "$2a$04$gmEf3O/3ywhOd2eob698huPZAUG5J1ZU8tJjA2ZsLQ70/IFA4J68."], ["name", "qlpp4t78qn"], ["introduction", "9lkpfobqycugaygvc4vd"], ["created_at", "2020-04-21 04:51:13.069796"], ["updated_at", "2020-04-21 04:51:13.069796"]]
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.0ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Exists (0.1ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."email" = ? LIMIT ?[0m  [["email", "elmo@smitham.org"], ["LIMIT", 1]]
+  [1m[36mUser Create (0.2ms)[0m  [1m[32mINSERT INTO "users" ("email", "encrypted_password", "name", "introduction", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["email", "elmo@smitham.org"], ["encrypted_password", "$2a$04$bfCEQgU5lIwzokTNDwoCoeQ1IYeToyORxhxZQuC9PnGqLlzocIPh2"], ["name", "xkn7bfhvcb"], ["introduction", "lpwahwt8dbfiepoxk4o8"], ["created_at", "2020-04-21 04:51:13.073715"], ["updated_at", "2020-04-21 04:51:13.073715"]]
+  [1m[35m (0.0ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.0ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mBook Create (0.3ms)[0m  [1m[32mINSERT INTO "books" ("title", "body", "user_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["title", "7clu6"], ["body", "g8aw7dxtsib0hk3l7ezc"], ["user_id", 2], ["created_at", "2020-04-21 04:51:13.075481"], ["updated_at", "2020-04-21 04:51:13.075481"]]
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+Started GET "/users/sign_in" for 127.0.0.1 at 2020-04-21 04:51:13 +0000
+Processing by Devise::SessionsController#new as HTML
+Completed 500 Internal Server Error in 14ms (ActiveRecord: 0.0ms)
+  [1m[35m (3.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Exists (0.5ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."email" = ? LIMIT ?[0m  [["email", "toby_zemlak@okonkuhn.net"], ["LIMIT", 1]]
+  [1m[36mUser Create (1.2ms)[0m  [1m[32mINSERT INTO "users" ("email", "encrypted_password", "name", "introduction", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["email", "toby_zemlak@okonkuhn.net"], ["encrypted_password", "$2a$04$fclOB7/vz01/MSIRL8EZa.UQSmCcCx9UZjg2pc318xj.ktKCQsI8a"], ["name", "m0dscnv3nm"], ["introduction", "cckzk9d62abwe8qfydgi"], ["created_at", "2020-04-21 04:51:13.101251"], ["updated_at", "2020-04-21 04:51:13.101251"]]
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Exists (0.1ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."email" = ? LIMIT ?[0m  [["email", "francisco.metz@mertz.com"], ["LIMIT", 1]]
+  [1m[36mUser Create (0.3ms)[0m  [1m[32mINSERT INTO "users" ("email", "encrypted_password", "name", "introduction", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["email", "francisco.metz@mertz.com"], ["encrypted_password", "$2a$04$NFOsqcxsax6.SEXEhtSvl./1ppKxA3Pl2r/HFmGU9HVMUSmoIxkqS"], ["name", "mxa1vrj16w"], ["introduction", "c45wknd7k2op85lc9eat"], ["created_at", "2020-04-21 04:51:13.105406"], ["updated_at", "2020-04-21 04:51:13.105406"]]
+  [1m[35m (0.0ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mBook Create (0.4ms)[0m  [1m[32mINSERT INTO "books" ("title", "body", "user_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["title", "21asy"], ["body", "olm6v66vftib2ay7nnll"], ["user_id", 2], ["created_at", "2020-04-21 04:51:13.107518"], ["updated_at", "2020-04-21 04:51:13.107518"]]
+  [1m[35m (0.0ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+Started GET "/users/sign_in" for 127.0.0.1 at 2020-04-21 04:51:13 +0000
+Processing by Devise::SessionsController#new as HTML
+Completed 500 Internal Server Error in 14ms (ActiveRecord: 0.0ms)
+  [1m[35m (2.6ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Exists (0.7ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."email" = ? LIMIT ?[0m  [["email", "euna@kundeborer.com"], ["LIMIT", 1]]
+  [1m[36mUser Create (0.9ms)[0m  [1m[32mINSERT INTO "users" ("email", "encrypted_password", "name", "introduction", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["email", "euna@kundeborer.com"], ["encrypted_password", "$2a$04$St6U/h4galmcsBrJgCVHm.xuMEsN5drmftKQGyt6RUPs1r3c0bX16"], ["name", "7xrs41yqvv"], ["introduction", "en93yqszza8wfi7tm1vk"], ["created_at", "2020-04-21 04:51:13.134598"], ["updated_at", "2020-04-21 04:51:13.134598"]]
+  [1m[35m (0.0ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Exists (0.2ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."email" = ? LIMIT ?[0m  [["email", "shad_murazik@west.org"], ["LIMIT", 1]]
+  [1m[36mUser Create (0.2ms)[0m  [1m[32mINSERT INTO "users" ("email", "encrypted_password", "name", "introduction", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["email", "shad_murazik@west.org"], ["encrypted_password", "$2a$04$AY2MUmpAlPKigmsJOngwYeIUCBdY.427fIsZcBL8zc/wRSEYNbTym"], ["name", "5nfm6cg6nm"], ["introduction", "phwfb2hfb47d6dakkuyh"], ["created_at", "2020-04-21 04:51:13.138705"], ["updated_at", "2020-04-21 04:51:13.138705"]]
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.0ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mBook Create (0.2ms)[0m  [1m[32mINSERT INTO "books" ("title", "body", "user_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["title", "d1c9s"], ["body", "rjvt89k5fjkcu5w5r1eq"], ["user_id", 2], ["created_at", "2020-04-21 04:51:13.140284"], ["updated_at", "2020-04-21 04:51:13.140284"]]
+  [1m[35m (0.0ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+Started GET "/users/sign_in" for 127.0.0.1 at 2020-04-21 04:51:13 +0000
+Processing by Devise::SessionsController#new as HTML
+Completed 500 Internal Server Error in 15ms (ActiveRecord: 0.0ms)
+  [1m[35m (2.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Exists (0.7ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."email" = ? LIMIT ?[0m  [["email", "kari@hodkiewiczwindler.org"], ["LIMIT", 1]]
+  [1m[36mUser Create (1.0ms)[0m  [1m[32mINSERT INTO "users" ("email", "encrypted_password", "name", "introduction", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["email", "kari@hodkiewiczwindler.org"], ["encrypted_password", "$2a$04$8uRhKNfLr5PtoNVYmz.BuOvnSZ/nPvQJ4aFzKHEPkOAIV/Vu5VG6G"], ["name", "7oj5v2iazn"], ["introduction", "pr1dtd7jsac3x6mq2hs3"], ["created_at", "2020-04-21 04:51:13.166551"], ["updated_at", "2020-04-21 04:51:13.166551"]]
+  [1m[35m (0.0ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.0ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Exists (0.1ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."email" = ? LIMIT ?[0m  [["email", "raymon@ullrichrogahn.info"], ["LIMIT", 1]]
+  [1m[36mUser Create (0.2ms)[0m  [1m[32mINSERT INTO "users" ("email", "encrypted_password", "name", "introduction", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["email", "raymon@ullrichrogahn.info"], ["encrypted_password", "$2a$04$fJJoHOykaOwQZ.Fhr4QcAOs.jBbkyGQeQENK6d13pCrf9zG4vbGjO"], ["name", "bnx2y9iwyg"], ["introduction", "x2e3dqkgtrcjv9wqiaj0"], ["created_at", "2020-04-21 04:51:13.170752"], ["updated_at", "2020-04-21 04:51:13.170752"]]
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.0ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mBook Create (0.2ms)[0m  [1m[32mINSERT INTO "books" ("title", "body", "user_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["title", "4sela"], ["body", "oetxhdjsd0ms0c5w8cex"], ["user_id", 2], ["created_at", "2020-04-21 04:51:13.172312"], ["updated_at", "2020-04-21 04:51:13.172312"]]
+  [1m[35m (0.0ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+Started GET "/users/sign_in" for 127.0.0.1 at 2020-04-21 04:51:13 +0000
+Processing by Devise::SessionsController#new as HTML
+Completed 500 Internal Server Error in 15ms (ActiveRecord: 0.0ms)
+  [1m[35m (2.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Exists (0.3ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."email" = ? LIMIT ?[0m  [["email", "luciana.lueilwitz@moore.io"], ["LIMIT", 1]]
+  [1m[36mUser Create (1.6ms)[0m  [1m[32mINSERT INTO "users" ("email", "encrypted_password", "name", "introduction", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["email", "luciana.lueilwitz@moore.io"], ["encrypted_password", "$2a$04$PmNLY3ClU3ubFDPnwV3R4OLe52D2Nbgs80oCx9iT7OmSMhPDhtg2G"], ["name", "5z6nkd2d5f"], ["introduction", "x0r0amx0c24tf00c85yb"], ["created_at", "2020-04-21 04:51:13.198463"], ["updated_at", "2020-04-21 04:51:13.198463"]]
+  [1m[35m (0.0ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.0ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Exists (0.1ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."email" = ? LIMIT ?[0m  [["email", "darnell@waterstremblay.biz"], ["LIMIT", 1]]
+  [1m[36mUser Create (0.2ms)[0m  [1m[32mINSERT INTO "users" ("email", "encrypted_password", "name", "introduction", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["email", "darnell@waterstremblay.biz"], ["encrypted_password", "$2a$04$aJ1s1PTthJw07xTymTRPiu1p/6WQXH0PsosGbCr15.7sTGVzZfOMu"], ["name", "87chdurarb"], ["introduction", "3hc3cleo36odsftktjqf"], ["created_at", "2020-04-21 04:51:13.203478"], ["updated_at", "2020-04-21 04:51:13.203478"]]
+  [1m[35m (0.0ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.0ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mBook Create (0.3ms)[0m  [1m[32mINSERT INTO "books" ("title", "body", "user_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["title", "1w4gr"], ["body", "4fh4qcdyspnybd2m3gnm"], ["user_id", 2], ["created_at", "2020-04-21 04:51:13.205142"], ["updated_at", "2020-04-21 04:51:13.205142"]]
+  [1m[35m (0.0ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+Started GET "/users/sign_in" for 127.0.0.1 at 2020-04-21 04:51:13 +0000
+Processing by Devise::SessionsController#new as HTML
+Completed 500 Internal Server Error in 15ms (ActiveRecord: 0.0ms)
+  [1m[35m (2.3ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Exists (1.4ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."email" = ? LIMIT ?[0m  [["email", "alberto@weimann.biz"], ["LIMIT", 1]]
+  [1m[36mUser Create (1.4ms)[0m  [1m[32mINSERT INTO "users" ("email", "encrypted_password", "name", "introduction", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["email", "alberto@weimann.biz"], ["encrypted_password", "$2a$04$dvnAzLX5G1X9kFosdkRnSefPd0sq1sMSw2vUw77TBK3ih1CPeOd2K"], ["name", "o33kedj9a6"], ["introduction", "vrhvjf0mlxrecxzowhfg"], ["created_at", "2020-04-21 04:51:13.231286"], ["updated_at", "2020-04-21 04:51:13.231286"]]
+  [1m[35m (0.0ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.0ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Exists (0.1ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."email" = ? LIMIT ?[0m  [["email", "theo.bahringer@paucek.net"], ["LIMIT", 1]]
+  [1m[36mUser Create (0.2ms)[0m  [1m[32mINSERT INTO "users" ("email", "encrypted_password", "name", "introduction", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["email", "theo.bahringer@paucek.net"], ["encrypted_password", "$2a$04$t2O0FrHODrmJk8qroj4Tt.7I/2dQfs7H05efuzhaH0XANPzSaa57K"], ["name", "emkncigk6g"], ["introduction", "q1gcuornle3rns4bbtr6"], ["created_at", "2020-04-21 04:51:13.235909"], ["updated_at", "2020-04-21 04:51:13.235909"]]
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.0ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mBook Create (0.3ms)[0m  [1m[32mINSERT INTO "books" ("title", "body", "user_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["title", "a3e8v"], ["body", "ux42wrdmfxeat4qzuow9"], ["user_id", 2], ["created_at", "2020-04-21 04:51:13.237824"], ["updated_at", "2020-04-21 04:51:13.237824"]]
+  [1m[35m (0.0ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+Started GET "/users/sign_in" for 127.0.0.1 at 2020-04-21 04:51:13 +0000
+Processing by Devise::SessionsController#new as HTML
+Completed 500 Internal Server Error in 15ms (ActiveRecord: 0.0ms)
+  [1m[35m (4.2ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Exists (0.4ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."email" = ? LIMIT ?[0m  [["email", "benjamin.champlin@ullrich.net"], ["LIMIT", 1]]
+  [1m[36mUser Create (1.4ms)[0m  [1m[32mINSERT INTO "users" ("email", "encrypted_password", "name", "introduction", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["email", "benjamin.champlin@ullrich.net"], ["encrypted_password", "$2a$04$7rjyB2xq8pQazpaXcchUsOmxtl2CpSQLxbA3Lo.EADME4nmWeuTZ2"], ["name", "t9xbpwdpqq"], ["introduction", "fer2asbtg86zyisu3jhg"], ["created_at", "2020-04-21 04:51:13.267030"], ["updated_at", "2020-04-21 04:51:13.267030"]]
+  [1m[35m (0.0ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.0ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Exists (0.1ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."email" = ? LIMIT ?[0m  [["email", "tom@leuschkeyost.com"], ["LIMIT", 1]]
+  [1m[36mUser Create (0.2ms)[0m  [1m[32mINSERT INTO "users" ("email", "encrypted_password", "name", "introduction", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["email", "tom@leuschkeyost.com"], ["encrypted_password", "$2a$04$Zqy5bj18llNZgm3tLDpxh.uEQLfM1d.qCQEjl2oRpb0ldIk8v29Ia"], ["name", "yqwbwzcif8"], ["introduction", "fmb9pkyv2xrzgdlkh0ix"], ["created_at", "2020-04-21 04:51:13.272197"], ["updated_at", "2020-04-21 04:51:13.272197"]]
+  [1m[35m (0.0ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mBook Create (0.4ms)[0m  [1m[32mINSERT INTO "books" ("title", "body", "user_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["title", "r0rp2"], ["body", "kziqr95b0ugr21suoknc"], ["user_id", 2], ["created_at", "2020-04-21 04:51:13.274093"], ["updated_at", "2020-04-21 04:51:13.274093"]]
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+Started GET "/users/sign_in" for 127.0.0.1 at 2020-04-21 04:51:13 +0000
+Processing by Devise::SessionsController#new as HTML
+Completed 500 Internal Server Error in 14ms (ActiveRecord: 0.0ms)
+  [1m[35m (2.4ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Exists (0.5ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."email" = ? LIMIT ?[0m  [["email", "dion@goldner.name"], ["LIMIT", 1]]
+  [1m[36mUser Create (0.8ms)[0m  [1m[32mINSERT INTO "users" ("email", "encrypted_password", "name", "introduction", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["email", "dion@goldner.name"], ["encrypted_password", "$2a$04$wFjNhdclXun.9zVbFw6oD.u.NMyuwfCEriFrbgN/zDKoy3eoGl6Iu"], ["name", "tw13nzzqkj"], ["introduction", "tkzto9k09c39o4868h05"], ["created_at", "2020-04-21 04:51:13.300713"], ["updated_at", "2020-04-21 04:51:13.300713"]]
+  [1m[35m (0.0ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.0ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Exists (0.1ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."email" = ? LIMIT ?[0m  [["email", "sharleen_smith@bradtke.net"], ["LIMIT", 1]]
+  [1m[36mUser Create (0.2ms)[0m  [1m[32mINSERT INTO "users" ("email", "encrypted_password", "name", "introduction", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["email", "sharleen_smith@bradtke.net"], ["encrypted_password", "$2a$04$xNkUR3zE3DHd2Qqk28IFXebnQEzZk/518YuZvghyoQqEwV9Nhep1K"], ["name", "6pwckhyhvi"], ["introduction", "5yma6xhfvdsk43ttcn0p"], ["created_at", "2020-04-21 04:51:13.304310"], ["updated_at", "2020-04-21 04:51:13.304310"]]
+  [1m[35m (0.0ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.0ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mBook Create (0.4ms)[0m  [1m[32mINSERT INTO "books" ("title", "body", "user_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["title", "tanhe"], ["body", "nifd0gya5ef9giidmnvq"], ["user_id", 2], ["created_at", "2020-04-21 04:51:13.305771"], ["updated_at", "2020-04-21 04:51:13.305771"]]
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+Started GET "/users/sign_in" for 127.0.0.1 at 2020-04-21 04:51:13 +0000
+Processing by Devise::SessionsController#new as HTML
+Completed 500 Internal Server Error in 15ms (ActiveRecord: 0.0ms)
+  [1m[35m (1.9ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Exists (0.5ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."email" = ? LIMIT ?[0m  [["email", "toi.price@glover.info"], ["LIMIT", 1]]
+  [1m[36mUser Create (1.4ms)[0m  [1m[32mINSERT INTO "users" ("email", "encrypted_password", "name", "introduction", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["email", "toi.price@glover.info"], ["encrypted_password", "$2a$04$V3HJc6lYn/G6nNm6htxBjeLoOs7We.tr7b8PrIIYbVr3qGCNMkzDC"], ["name", "5q2vex0pti"], ["introduction", "jax66eoo4yisf0wne58a"], ["created_at", "2020-04-21 04:51:13.333890"], ["updated_at", "2020-04-21 04:51:13.333890"]]
+  [1m[35m (0.0ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.0ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Exists (0.1ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."email" = ? LIMIT ?[0m  [["email", "onie_walter@kautzer.name"], ["LIMIT", 1]]
+  [1m[36mUser Create (0.2ms)[0m  [1m[32mINSERT INTO "users" ("email", "encrypted_password", "name", "introduction", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["email", "onie_walter@kautzer.name"], ["encrypted_password", "$2a$04$9g400BkLRkPgk2MCfqHQKO4wNWqcrHWv.Kd4I/7P0uMTXJ6f4YJhW"], ["name", "soqu2gcqo2"], ["introduction", "phrmp86vhzpsngz36mdj"], ["created_at", "2020-04-21 04:51:13.338369"], ["updated_at", "2020-04-21 04:51:13.338369"]]
+  [1m[35m (0.0ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mBook Create (0.3ms)[0m  [1m[32mINSERT INTO "books" ("title", "body", "user_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["title", "lw5xv"], ["body", "ro472ce9anlep9lnj320"], ["user_id", 2], ["created_at", "2020-04-21 04:51:13.340025"], ["updated_at", "2020-04-21 04:51:13.340025"]]
+  [1m[35m (0.0ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+Started GET "/users/sign_in" for 127.0.0.1 at 2020-04-21 04:51:13 +0000
+Processing by Devise::SessionsController#new as HTML
+Completed 500 Internal Server Error in 15ms (ActiveRecord: 0.0ms)
+  [1m[35m (1.8ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Exists (0.6ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."email" = ? LIMIT ?[0m  [["email", "altagracia.grimes@schoen.info"], ["LIMIT", 1]]
+  [1m[36mUser Create (1.4ms)[0m  [1m[32mINSERT INTO "users" ("email", "encrypted_password", "name", "introduction", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["email", "altagracia.grimes@schoen.info"], ["encrypted_password", "$2a$04$HJP9pDeQMwO3KlHc4jmmNuw0cmyCZv0mxEG025aOwu4sxubIUvWNu"], ["name", "a05gjk6wpm"], ["introduction", "n66wkw3l8vldkshyv440"], ["created_at", "2020-04-21 04:51:13.365218"], ["updated_at", "2020-04-21 04:51:13.365218"]]
+  [1m[35m (0.0ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.0ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Exists (0.1ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."email" = ? LIMIT ?[0m  [["email", "francesco@mcclure.name"], ["LIMIT", 1]]
+  [1m[36mUser Create (0.2ms)[0m  [1m[32mINSERT INTO "users" ("email", "encrypted_password", "name", "introduction", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["email", "francesco@mcclure.name"], ["encrypted_password", "$2a$04$llNjYJGqf2GB39K8eMLxJOVYAonSdhYtgpwcQGc8f6BxNACZdCfqS"], ["name", "pyxon3pey5"], ["introduction", "2cdtcmlfmxya7c2gdp76"], ["created_at", "2020-04-21 04:51:13.369917"], ["updated_at", "2020-04-21 04:51:13.369917"]]
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.0ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mBook Create (0.3ms)[0m  [1m[32mINSERT INTO "books" ("title", "body", "user_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["title", "xqjdq"], ["body", "561eoneanjxskmjijckz"], ["user_id", 2], ["created_at", "2020-04-21 04:51:13.371692"], ["updated_at", "2020-04-21 04:51:13.371692"]]
+  [1m[35m (0.0ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+Started GET "/users/sign_in" for 127.0.0.1 at 2020-04-21 04:51:13 +0000
+Processing by Devise::SessionsController#new as HTML
+Completed 500 Internal Server Error in 15ms (ActiveRecord: 0.0ms)
+  [1m[35m (1.9ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Exists (1.5ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."email" = ? LIMIT ?[0m  [["email", "lavern_romaguera@hackettwindler.name"], ["LIMIT", 1]]
+  [1m[36mUser Create (1.5ms)[0m  [1m[32mINSERT INTO "users" ("email", "encrypted_password", "name", "introduction", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["email", "lavern_romaguera@hackettwindler.name"], ["encrypted_password", "$2a$04$cKChw7522xfcRDQ7C7PRUO016Ljj1K0Yy/TU8ACVNj3OHamB1lk16"], ["name", "p5l6xcv7i2"], ["introduction", "awd7dq4zu2fuhs5easjz"], ["created_at", "2020-04-21 04:51:13.398642"], ["updated_at", "2020-04-21 04:51:13.398642"]]
+  [1m[35m (0.0ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.0ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Exists (0.1ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."email" = ? LIMIT ?[0m  [["email", "malisa.herzog@hartmannkshlerin.io"], ["LIMIT", 1]]
+  [1m[36mUser Create (0.2ms)[0m  [1m[32mINSERT INTO "users" ("email", "encrypted_password", "name", "introduction", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["email", "malisa.herzog@hartmannkshlerin.io"], ["encrypted_password", "$2a$04$NdLtG4/ieOXSTARmIe3wo.q8znpmgeGZl8yIHXg.sxC5gbUyfGIeG"], ["name", "osfspa5nis"], ["introduction", "20huj6b6vf4m9tj3tb9v"], ["created_at", "2020-04-21 04:51:13.403726"], ["updated_at", "2020-04-21 04:51:13.403726"]]
+  [1m[35m (0.0ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.0ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mBook Create (0.4ms)[0m  [1m[32mINSERT INTO "books" ("title", "body", "user_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["title", "zltzd"], ["body", "eblq4ltcjoa4sm0uotzn"], ["user_id", 2], ["created_at", "2020-04-21 04:51:13.405414"], ["updated_at", "2020-04-21 04:51:13.405414"]]
+  [1m[35m (0.0ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+Started GET "/users/sign_in" for 127.0.0.1 at 2020-04-21 04:51:13 +0000
+Processing by Devise::SessionsController#new as HTML
+Completed 500 Internal Server Error in 15ms (ActiveRecord: 0.0ms)
+  [1m[35m (2.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Exists (1.2ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."email" = ? LIMIT ?[0m  [["email", "werner_bailey@metz.com"], ["LIMIT", 1]]
+  [1m[36mUser Create (1.1ms)[0m  [1m[32mINSERT INTO "users" ("email", "encrypted_password", "name", "introduction", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["email", "werner_bailey@metz.com"], ["encrypted_password", "$2a$04$ddzBeH89xgf2P5dTBXv0bOiKCeCVqS0x57Omh8YK.thd1uEZNZd.q"], ["name", "z3aiuv40o1"], ["introduction", "hr1tlnpae2a46xyfglp6"], ["created_at", "2020-04-21 04:51:13.431427"], ["updated_at", "2020-04-21 04:51:13.431427"]]
+  [1m[35m (0.0ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.0ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Exists (0.1ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."email" = ? LIMIT ?[0m  [["email", "lurline@kirlin.io"], ["LIMIT", 1]]
+  [1m[36mUser Create (0.2ms)[0m  [1m[32mINSERT INTO "users" ("email", "encrypted_password", "name", "introduction", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["email", "lurline@kirlin.io"], ["encrypted_password", "$2a$04$656uyBamjjeLNP5lPWSEs.xrrYxKrDsbjIL6ktxhTG3XV.vU.d23W"], ["name", "73eb8jdpo5"], ["introduction", "d677pt5ku47yadvxzzq1"], ["created_at", "2020-04-21 04:51:13.435579"], ["updated_at", "2020-04-21 04:51:13.435579"]]
+  [1m[35m (0.0ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.0ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mBook Create (0.2ms)[0m  [1m[32mINSERT INTO "books" ("title", "body", "user_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["title", "ztgdn"], ["body", "k12q2gu2zs3ivg6vop76"], ["user_id", 2], ["created_at", "2020-04-21 04:51:13.437127"], ["updated_at", "2020-04-21 04:51:13.437127"]]
+  [1m[35m (0.0ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+Started GET "/users/sign_in" for 127.0.0.1 at 2020-04-21 04:51:13 +0000
+Processing by Devise::SessionsController#new as HTML
+Completed 500 Internal Server Error in 15ms (ActiveRecord: 0.0ms)
+  [1m[35m (2.2ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Exists (0.5ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."email" = ? LIMIT ?[0m  [["email", "jon_schultz@kozeybraun.net"], ["LIMIT", 1]]
+  [1m[36mUser Create (1.9ms)[0m  [1m[32mINSERT INTO "users" ("email", "encrypted_password", "name", "introduction", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["email", "jon_schultz@kozeybraun.net"], ["encrypted_password", "$2a$04$HfUrmcgaQ39S5JWpE7zrruTPWmu1yyx49G5U2HTVxHhuiVmWjvPwG"], ["name", "ehvu8y9178"], ["introduction", "a88pyy8c5ha8gfo9zr3x"], ["created_at", "2020-04-21 04:51:13.461779"], ["updated_at", "2020-04-21 04:51:13.461779"]]
+  [1m[35m (0.0ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.0ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Exists (0.1ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."email" = ? LIMIT ?[0m  [["email", "joanie.hagenes@white.co"], ["LIMIT", 1]]
+  [1m[36mUser Create (0.2ms)[0m  [1m[32mINSERT INTO "users" ("email", "encrypted_password", "name", "introduction", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["email", "joanie.hagenes@white.co"], ["encrypted_password", "$2a$04$VmAwrKlMjbRynPy3eyQVm.XngYv1hrjErWZ9Rx6dZb9UymcT8gmkG"], ["name", "rqk8gih9nu"], ["introduction", "lspmq9n5q5cu14a893a3"], ["created_at", "2020-04-21 04:51:13.467156"], ["updated_at", "2020-04-21 04:51:13.467156"]]
+  [1m[35m (0.0ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mBook Create (0.2ms)[0m  [1m[32mINSERT INTO "books" ("title", "body", "user_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["title", "8psob"], ["body", "jemxczd9ofz70tbmdtgo"], ["user_id", 2], ["created_at", "2020-04-21 04:51:13.468684"], ["updated_at", "2020-04-21 04:51:13.468684"]]
+  [1m[35m (0.0ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+Started GET "/users/sign_in" for 127.0.0.1 at 2020-04-21 04:51:13 +0000
+Processing by Devise::SessionsController#new as HTML
+Completed 500 Internal Server Error in 15ms (ActiveRecord: 0.0ms)
+  [1m[35m (1.4ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Exists (0.7ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."email" = ? LIMIT ?[0m  [["email", "julietta@runolfon.co"], ["LIMIT", 1]]
+  [1m[36mUser Create (1.1ms)[0m  [1m[32mINSERT INTO "users" ("email", "encrypted_password", "name", "introduction", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["email", "julietta@runolfon.co"], ["encrypted_password", "$2a$04$JOSRRvFOlcy.XWCeABbG7epledwMEduh.vEzi2KnvJtCq0qmCl26G"], ["name", "twb9f1z07x"], ["introduction", "h9z4o488vhafbfq1y19f"], ["created_at", "2020-04-21 04:51:13.491880"], ["updated_at", "2020-04-21 04:51:13.491880"]]
+  [1m[35m (0.0ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Exists (0.1ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."email" = ? LIMIT ?[0m  [["email", "raymond@greenfelder.net"], ["LIMIT", 1]]
+  [1m[36mUser Create (0.5ms)[0m  [1m[32mINSERT INTO "users" ("email", "encrypted_password", "name", "introduction", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["email", "raymond@greenfelder.net"], ["encrypted_password", "$2a$04$SlztbuDYjhr/m3C6xKJm1e.vh/bDNYmd3jW2AHmOwpfLKEop85pQS"], ["name", "qlqokuo7wb"], ["introduction", "hhru7asybm3bgd5wmdsp"], ["created_at", "2020-04-21 04:51:13.496873"], ["updated_at", "2020-04-21 04:51:13.496873"]]
+  [1m[35m (0.0ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.0ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mBook Create (0.3ms)[0m  [1m[32mINSERT INTO "books" ("title", "body", "user_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["title", "vtpi5"], ["body", "uvfmyu7urt9xo7lx525s"], ["user_id", 2], ["created_at", "2020-04-21 04:51:13.499225"], ["updated_at", "2020-04-21 04:51:13.499225"]]
+  [1m[35m (0.0ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+Started GET "/users/sign_in" for 127.0.0.1 at 2020-04-21 04:51:13 +0000
+Processing by Devise::SessionsController#new as HTML
+Completed 500 Internal Server Error in 42ms (ActiveRecord: 0.0ms)
+  [1m[35m (2.7ms)[0m  [1m[31mrollback transaction[0m
